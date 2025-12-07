@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dependencies
 node_modules/
 
@@ -39,3 +40,7 @@ temp/
 *.db
 *.sql
 sadaqah_db_dump.json
+=======
+node_modules
+cd
+>>>>>>> c08c74f06712c8c0fd795697553a9e1e63033a0f
