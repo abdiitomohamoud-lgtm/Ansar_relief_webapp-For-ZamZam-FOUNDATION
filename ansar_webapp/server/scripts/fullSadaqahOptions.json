@@ -1,0 +1,370 @@
+{
+  "general": [
+    {
+      "type": "General Sadaqah",
+      "id": "general-1",
+      "title": "Daily Sadaqah",
+      "description": "A special donation program that allows enrolled donors to automatically donate an agreed amount every day.",
+      "image": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "iconName": "FaCalendarAlt",
+      "cta": "Subscribe Now",
+      "isPeriodic": true,
+      "categorySlug": "general"
+      ,"benefits": ["Automated daily giving", "Consistent rewards", "Easy to manage"],
+      "faq": [
+        { "question": "Can I change my daily amount?", "answer": "Yes, you can update your daily amount anytime from your account settings." },
+        { "question": "Is there a minimum donation?", "answer": "The minimum donation is $1." }
+      ],
+      "extraInfo": "Daily Sadaqah is a great way to build a habit of giving and maximize your impact."
+    },
+    {
+      "type": "General Sadaqah",
+      "id": "general-2",
+      "title": "Sadaqah Jariyah",
+      "description": "Continuous charity that keeps giving even after you're gone, such as water wells, mosques, and schools.",
+      "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "iconName": "FaHandHoldingHeart",
+      "cta": "Donate Now",
+      "categorySlug": "general"
+      ,"benefits": ["Ongoing rewards", "Supports community projects", "Legacy giving"],
+      "faq": [
+        { "question": "What qualifies as Sadaqah Jariyah?", "answer": "Projects like wells, mosques, and schools qualify as Sadaqah Jariyah." },
+        { "question": "Can I dedicate my donation?", "answer": "Yes, you can dedicate your donation in honor of someone." }
+      ],
+      "extraInfo": "Sadaqah Jariyah projects continue to benefit people for years, multiplying your rewards."
+    },
+    {
+      "type": "General Sadaqah",
+      "id": "general-3",
+      "title": "Feed the Poor",
+      "description": "Provide nutritious meals to those in need in communities around the world.",
+      "image": "https://images.unsplash.com/photo-1606787366850-de6330128a16?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "iconName": "FaUsers",
+      "cta": "Help Today",
+      "categorySlug": "general"
+      ,"benefits": ["Immediate impact", "Helps vulnerable families", "Fulfills a basic need"],
+      "faq": [
+        { "question": "Where are meals distributed?", "answer": "Meals are distributed in regions with the greatest need, based on our field assessments." },
+        { "question": "Can I sponsor a specific region?", "answer": "You may request a region, and we will do our best to accommodate." }
+      ],
+      "extraInfo": "Feeding the poor is a highly recommended act of charity in Islam."
+    }
+  ],
+  "immediate": [
+    {
+      "type": "Emergency Sadaqah",
+      "id": "immediate-1",
+      "title": "Support for Widows",
+      "description": "Provide financial aid and support for widows and their families.",
+      "image": "https://images.unsplash.com/photo-1594751684241-638928887de7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "iconName": "FaHeart",
+      "goal": 50000,
+      "raised": 32400,
+      "cta": "Support Now",
+      "location": "Syria & Yemen",
+      "donors": 230,
+      "daysLeft": 18,
+      "categorySlug": "emergency"
+      ,"benefits": ["Empowers widows", "Provides essential support", "Improves quality of life"],
+      "faq": [
+        { "question": "How are funds distributed?", "answer": "Funds are distributed directly to widows through vetted local partners." },
+        { "question": "Can I get updates on beneficiaries?", "answer": "We provide periodic updates via email and our website." }
+      ],
+      "extraInfo": "Supporting widows is a noble cause with great social impact."
+    },
+    {
+      "type": "Emergency Sadaqah",
+      "id": "immediate-2",
+      "title": "Medical Treatment",
+      "description": "Help fund critical medical care for those who cannot afford it.",
+      "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "iconName": "FaHeart",
+      "goal": 75000,
+      "raised": 41200,
+      "cta": "Donate Now",
+      "location": "Gaza",
+      "donors": 186,
+      "daysLeft": 25,
+      "categorySlug": "emergency"
+      ,"benefits": ["Saves lives", "Provides urgent care", "Supports vulnerable patients"],
+      "faq": [
+        { "question": "What treatments are covered?", "answer": "Critical medical treatments such as surgeries, medications, and therapies are covered." },
+        { "question": "Can I sponsor a patient?", "answer": "Yes, you can sponsor a specific patient if you wish." }
+      ],
+      "extraInfo": "Medical treatment donations help those in dire need of healthcare."
+    },
+    {
+      "type": "Emergency Sadaqah",
+      "id": "immediate-3",
+      "title": "Debt Relief",
+      "description": "Help free those burdened by debt due to unforeseen circumstances.",
+      "image": "https://images.unsplash.com/photo-1579621970795-87facc2f976d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "iconName": "FaHeart",
+      "goal": 60000,
+      "raised": 28900,
+      "cta": "Contribute",
+      "location": "Worldwide",
+      "donors": 145,
+      "daysLeft": 30,
+      "categorySlug": "emergency"
+      ,"benefits": ["Frees families from hardship", "Restores dignity", "Immediate impact"],
+      "faq": [
+        { "question": "Who qualifies for debt relief?", "answer": "Applicants are vetted for genuine need and unforeseen hardship." },
+        { "question": "Is the process confidential?", "answer": "All cases are handled with strict confidentiality." }
+      ],
+      "extraInfo": "Debt relief is a powerful way to help those in financial distress."
+    },
+    {
+      "type": "Emergency Sadaqah",
+      "id": "immediate-4",
+      "title": "Support for Students",
+      "description": "Help fund education for students from underprivileged backgrounds.",
+      "image": "https://images.unsplash.com/photo-1529390079861-591de354faf5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "iconName": "FaHeart",
+      "goal": 45000,
+      "raised": 21800,
+      "cta": "Support Now",
+      "location": "Africa",
+      "donors": 119,
+      "daysLeft": 40,
+      "categorySlug": "emergency"
+      ,"benefits": ["Supports education", "Empowers youth", "Breaks cycle of poverty"],
+      "faq": [
+        { "question": "What expenses are covered?", "answer": "Tuition, books, and basic living expenses are covered." },
+        { "question": "Can I sponsor a student?", "answer": "Yes, you can sponsor a student directly." }
+      ],
+      "extraInfo": "Education support helps build a brighter future for communities."
+    }
+  ],
+  "periodic": [
+    {
+      "type": "Periodic Sadaqah",
+      "id": "periodic-1",
+      "title": "Friday Sadaqah",
+      "description": "Donate every Friday to maximize rewards on this blessed day.",
+      "image": "https://images.unsplash.com/photo-1591197172062-c718f82aba20?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "iconName": "FaRegCalendarCheck",
+      "interval": "weekly",
+      "day": "Friday",
+      "cta": "Set Up Weekly",
+      "categorySlug": "general"
+      ,"benefits": ["Weekly rewards", "Easy to set up", "Consistent giving"],
+      "faq": [
+        { "question": "Can I change my weekly amount?", "answer": "You can change your weekly donation amount anytime." },
+        { "question": "Is Friday the only option?", "answer": "Friday is recommended, but you may choose another day." }
+      ],
+      "extraInfo": "Friday Sadaqah is a special opportunity for increased blessings."
+    },
+    {
+      "type": "Periodic Sadaqah",
+      "id": "periodic-2",
+      "title": "Monday & Thursday",
+      "description": "Follow the Sunnah by giving Sadaqah on the days the Prophet ﷺ recommended fasting.",
+      "image": "https://images.unsplash.com/photo-1633613286848-e6f43bbafb8d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "iconName": "FaRegCalendarCheck",
+      "interval": "weekly",
+      "days": [
+        "Monday",
+        "Thursday"
+      ],
+      "cta": "Set Up Bi-Weekly",
+      "categorySlug": "general"
+      ,"benefits": ["Sunnah practice", "Flexible scheduling", "Consistent rewards"],
+      "faq": [
+        { "question": "Can I choose other days?", "answer": "You may select any day for your donation schedule." },
+        { "question": "Is there a minimum amount?", "answer": "The minimum is $1 per donation." }
+      ],
+      "extraInfo": "Giving on Mondays and Thursdays follows the Sunnah and increases blessings."
+    },
+    {
+      "type": "Periodic Sadaqah",
+      "id": "periodic-3",
+      "title": "Monthly Sadaqah",
+      "description": "Set up a regular monthly donation to provide consistent support.",
+      "image": "https://images.unsplash.com/photo-1559583985-c80d8ad9b29f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "iconName": "FaCalendarAlt",
+      "interval": "monthly",
+      "cta": "Set Up Monthly",
+      "categorySlug": "general"
+      ,"benefits": ["Monthly rewards", "Reliable support", "Easy to manage"],
+      "faq": [
+        { "question": "Can I pause my monthly donation?", "answer": "You can pause or cancel your monthly donation anytime." },
+        { "question": "Is there a contract?", "answer": "No contract is required; you may stop anytime." }
+      ],
+      "extraInfo": "Monthly Sadaqah helps sustain ongoing charitable projects."
+    }
+  ],
+  "kafarat": [
+    {
+      "type": "Kafarat Sadaqah",
+      "id": "kafarat-1",
+      "title": "Oath Atonement",
+      "description": "Expiation for breaking an oath in the name of Allah. Feed or clothe ten poor people or free a slave.",
+      "image": "https://images.unsplash.com/photo-1528213049955-adbe6fe1dcbd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "iconName": "FaHandHoldingHeart",
+      "amount": 70,
+      "cta": "Pay Now",
+      "categorySlug": "general"
+      ,"benefits": ["Fulfills religious duty", "Helps the poor", "Restores spiritual balance"],
+      "faq": [
+        { "question": "How is the amount calculated?", "answer": "The amount is based on local food/clothing costs for ten people." },
+        { "question": "Can I pay in installments?", "answer": "Yes, you may pay in installments if needed." }
+      ],
+      "extraInfo": "Oath atonement is a prescribed way to seek forgiveness for broken oaths."
+    },
+    {
+      "type": "Kafarat Sadaqah",
+      "id": "kafarat-2",
+      "title": "Fasting Kafara",
+      "description": "Compensation for missed fasting days (for those unable to make them up) by feeding the poor.",
+      "image": "https://images.unsplash.com/photo-1594745561149-2211ca8c5d98?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "iconName": "FaUtensils",
+      "amount": 10,
+      "perDay": true,
+      "cta": "Pay Kafara",
+      "categorySlug": "general"
+      ,"benefits": ["Compensates missed fasts", "Feeds the needy", "Easy to fulfill"],
+      "faq": [
+        { "question": "How many days can I pay for?", "answer": "You may pay for as many missed days as required." },
+        { "question": "Is there a deadline?", "answer": "There is no strict deadline, but it is best to pay promptly." }
+      ],
+      "extraInfo": "Fasting Kafara is a way to fulfill missed religious obligations."
+    },
+    {
+      "type": "Kafarat Sadaqah",
+      "id": "kafarat-3",
+      "title": "Fidyah",
+      "description": "Payment for those physically unable to fast due to illness, old age, or chronic condition.",
+      "image": "https://images.unsplash.com/photo-1576765608866-5b51046452be?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "iconName": "FaHeart",
+      "amount": 10,
+      "perDay": true,
+      "cta": "Pay Fidyah",
+      "categorySlug": "general"
+      ,"benefits": ["Supports those unable to fast", "Feeds the poor", "Fulfills religious obligation"],
+      "faq": [
+        { "question": "Who qualifies for Fidyah?", "answer": "Those unable to fast due to illness or age qualify." },
+        { "question": "Can I pay for someone else?", "answer": "Yes, you may pay Fidyah on behalf of another." }
+      ],
+      "extraInfo": "Fidyah is a compassionate solution for those unable to fast."
+    }
+  ],
+  "aqiqah": [
+    {
+      "type": "Aqiqah Sadaqah",
+      "id": "aqiqah-1",
+      "title": "Aqiqah",
+      "description": "Sacrifice offered on behalf of a newborn as a form of gratitude to Allah.",
+      "image": "https://images.unsplash.com/photo-1596464716127-f2a82984de30?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "iconName": "FaPaw",
+      "amount": 200,
+      "cta": "Donate Aqiqah",
+      "categorySlug": "food"
+      ,"benefits": ["Welcomes newborns", "Fulfills Sunnah", "Feeds the poor"],
+      "faq": [
+        { "question": "How many animals are required?", "answer": "Typically, two animals for a boy and one for a girl." },
+        { "question": "Can I donate on behalf of someone else?", "answer": "Yes, you may donate Aqiqah for another person." }
+      ],
+      "extraInfo": "Aqiqah is a beautiful tradition to celebrate new life."
+    },
+    {
+      "type": "Aqiqah Sadaqah",
+      "id": "aqiqah-2",
+      "title": "Sacrifice (Qurbani)",
+      "description": "Commemorate the devotion of Prophet Ibrahim (AS) and help feed the poor during Eid al-Adha.",
+      "image": "https://images.unsplash.com/photo-1539786774582-0707555f1f72?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "iconName": "FaHorse",
+      "amount": 250,
+      "cta": "Donate Sacrifice",
+      "categorySlug": "food"
+      ,"benefits": ["Feeds the poor", "Fulfills Eid tradition", "Shares blessings"],
+      "faq": [
+        { "question": "What animals can be sacrificed?", "answer": "Sheep, goats, cows, and camels are acceptable." },
+        { "question": "Can I choose the location?", "answer": "You may request a location, subject to availability." }
+      ],
+      "extraInfo": "Qurbani is a major act of worship during Eid al-Adha."
+    },
+    {
+      "type": "Aqiqah Sadaqah",
+      "id": "aqiqah-3",
+      "title": "Vow Fulfillment",
+      "description": "Fulfill your vow (nadhr) made to Allah through charitable action.",
+      "image": "https://images.unsplash.com/photo-1569384179898-a5be36ca8f91?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "iconName": "FaHandshake",
+      "customAmount": true,
+      "cta": "Fulfill Vow",
+      "categorySlug": "food"
+      ,"benefits": ["Fulfills vows", "Flexible giving", "Helps those in need"],
+      "faq": [
+        { "question": "Can I specify the amount?", "answer": "You may specify any amount for vow fulfillment." },
+        { "question": "Is there a time limit?", "answer": "There is no strict time limit, but fulfilling vows promptly is recommended." }
+      ],
+      "extraInfo": "Vow fulfillment is a way to honor promises made to Allah."
+    }
+  ],
+  "specific": [
+    {
+      "type": "Specific Sadaqah",
+      "id": "specific-1",
+      "title": "Water Wells",
+      "description": "Provide access to clean water for communities suffering from water scarcity.",
+      "image": "https://images.unsplash.com/photo-1551731409-43eb3e517a1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "iconName": "FaWater",
+      "goal": 15000,
+      "raised": 8500,
+      "cta": "Fund a Well",
+      "location": "East Africa",
+      "donors": 98,
+      "daysLeft": 45,
+      "categorySlug": "water"
+      ,"benefits": ["Provides clean water", "Improves health", "Saves lives"],
+      "faq": [
+        { "question": "Where are wells built?", "answer": "Wells are built in communities suffering from water scarcity." },
+        { "question": "Can I get updates on projects?", "answer": "We provide updates and photos as projects progress." }
+      ],
+      "extraInfo": "Water wells transform communities and save lives."
+    },
+    {
+      "type": "Specific Sadaqah",
+      "id": "specific-2",
+      "title": "Mosque Construction",
+      "description": "Help build a place of worship, learning, and community for Muslims.",
+      "image": "https://images.unsplash.com/photo-1564769625644-c0483afb2fd0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "iconName": "FaMosque",
+      "goal": 50000,
+      "raised": 22500,
+      "cta": "Build a Mosque",
+      "location": "South Asia",
+      "donors": 175,
+      "daysLeft": 60,
+      "categorySlug": "general"
+      ,"benefits": ["Builds community", "Ongoing rewards", "Supports education"],
+      "faq": [
+        { "question": "Can I dedicate a mosque?", "answer": "Yes, you may dedicate a mosque in honor of someone." },
+        { "question": "How long does construction take?", "answer": "Construction time varies by location and project size." }
+      ],
+      "extraInfo": "Mosque construction is a lasting legacy for generations."
+    },
+    {
+      "type": "Specific Sadaqah",
+      "id": "specific-3",
+      "title": "Educational Support",
+      "description": "Fund educational initiatives for underprivileged children and communities.",
+      "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "iconName": "FaGraduationCap",
+      "goal": 20000,
+      "raised": 12200,
+      "cta": "Support Education",
+      "location": "Middle East",
+      "donors": 120,
+      "daysLeft": 35,
+      "categorySlug": "education"
+      ,"benefits": ["Supports learning", "Empowers children", "Breaks cycle of poverty"],
+      "faq": [
+        { "question": "What programs are funded?", "answer": "Educational programs include tuition, supplies, and mentorship." },
+        { "question": "Can I sponsor a child?", "answer": "Yes, you can sponsor a child directly." }
+      ],
+      "extraInfo": "Educational support helps build a brighter future for all."
+    }
+  ]
+}

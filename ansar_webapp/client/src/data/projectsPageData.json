@@ -1,0 +1,11 @@
+{
+  "projectCategories": [
+    { "name": "Mosques", "path": "categories/mosques", "description": "Building and maintaining mosques" },
+    { "name": "Housing", "path": "categories/housing", "description": "Providing shelter for those in need" },
+    { "name": "Water", "path": "categories/water", "description": "Clean water initiatives" },
+    { "name": "Health", "path": "categories/health", "description": "Healthcare and medical support" },
+    { "name": "Education", "path": "categories/education", "description": "Educational programs and facilities" },
+    { "name": "Income", "path": "categories/income", "description": "Income generation projects" },
+    { "name": "Relief", "path": "categories/relief", "description": "Emergency relief efforts" }
+  ]
+}

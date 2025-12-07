@@ -1,0 +1,9 @@
+[
+  { "name": "Emergency Relief", "slug": "emergency-relief" },
+  { "name": "Water", "slug": "water" },
+  { "name": "Orphans", "slug": "orphans" },
+  { "name": "Seasonal", "slug": "seasonal" },
+  { "name": "Education", "slug": "education" },
+  { "name": "Masjid", "slug": "masjid" },
+  { "name": "Food", "slug": "food" }
+]

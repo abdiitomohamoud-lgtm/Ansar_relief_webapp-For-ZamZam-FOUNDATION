@@ -1,0 +1,16 @@
+{
+  "hero": {
+    "headline": "Campaigns & Projects",
+    "subheading": "Support our current campaigns and help create lasting change for communities in need around the world.",
+    "badge": "Make a difference today",
+    "ctaDonate": "Donate Now",
+    "ctaVolunteer": "Volunteer",
+    "backgroundImage": "/images/campaigns/hero/hero-bg.jpg"
+  },
+  "ctaBottom": {
+    "heading": "Start Your Own Campaign",
+    "subtext": "Have a cause you're passionate about? Start your own fundraising campaign and make a difference.",
+    "contact": "Contact Us",
+    "initiatives": "View All Initiatives"
+  }
+}

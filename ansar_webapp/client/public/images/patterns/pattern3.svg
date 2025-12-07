@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="hexagons" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 50 15 L 50 45 L 25 60 L 0 45 L 0 15 Z" fill="none" stroke="currentColor" stroke-width="1" opacity="0.1" />
+    </pattern>
+    <pattern id="stars" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 30 15 L 45 15 L 32 25 L 37 40 L 25 30 L 13 40 L 18 25 L 5 15 L 20 15 Z" fill="currentColor" opacity="0.1" />
+    </pattern>
+  </defs>
+  <rect width="100" height="100" fill="url(#hexagons)" />
+  <rect width="100" height="100" fill="url(#stars)" />
+</svg>

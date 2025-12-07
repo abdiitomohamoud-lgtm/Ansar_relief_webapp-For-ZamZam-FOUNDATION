@@ -1,0 +1,263 @@
+{
+  "hero": {
+    "title": "About Ansar Relief",
+    "subtitle": "A humanitarian organization dedicated to providing aid and sustainable development to communities in need.",
+    "description": "For over 18 years, we've been committed to serving our community, guided by Islamic principles of compassion, generosity, and excellence.",
+    "image": "/images/about/about-hero.jpg",
+    "backgroundImage": "/images/about/about-hero.jpg"
+  },
+  "story": {
+    "title": "Our Story",
+    "whoWeAre": "Ansar Relief was founded in 2010 with a simple mission: to provide immediate humanitarian assistance to communities affected by crises and to implement sustainable development projects that create lasting change.",
+    "mission": "What began as a small group of dedicated volunteers has grown into an international organization with operations in over 30 countries, touching the lives of millions of people in need.",
+    "approaches": "Our name 'Ansar' is derived from the Arabic word meaning 'helpers' or 'supporters' - reflecting our commitment to stand by those in need regardless of race, religion, or nationality. Today, we work tirelessly to respond to humanitarian emergencies, fight poverty, improve access to education and healthcare, and create sustainable solutions for communities worldwide.",
+    "paragraphs": [
+      "Ansar Relief was founded in 2010 with a simple mission: to provide immediate humanitarian assistance to communities affected by crises and to implement sustainable development projects that create lasting change.",
+      "What began as a small group of dedicated volunteers has grown into an international organization with operations in over 30 countries, touching the lives of millions of people in need.",
+      "Our name 'Ansar' is derived from the Arabic word meaning 'helpers' or 'supporters' - reflecting our commitment to stand by those in need regardless of race, religion, or nationality.",
+      "Today, we work tirelessly to respond to humanitarian emergencies, fight poverty, improve access to education and healthcare, and create sustainable solutions for communities worldwide."
+    ],
+    "image": "/images/about/about-hero.jpg",
+    "missionLink": "/mission"
+  },
+  "values": [
+    {
+      "icon": "FaHandHoldingHeart",
+      "title": "Compassion",
+      "description": "We act with empathy and care, recognizing the dignity and humanity of those we serve."
+    },
+    {
+      "icon": "FaCheck",
+      "title": "Integrity",
+      "description": "We maintain high ethical standards, transparency, and accountability in all our operations."
+    },
+    {
+      "icon": "FaGlobe",
+      "title": "Inclusivity",
+      "description": "We serve all people regardless of race, religion, nationality, or background."
+    }
+  ],
+  "team": {
+    "title": "Our Team",
+    "description": "Meet our dedicated leadership and staff who drive our mission forward.",
+    "members": [
+      {
+        "name": "Ahmed Al-Mansour",
+        "role": "Executive Director",
+        "image": "/images/team/ahmed-hassan.jpg",
+        "bio": "15+ years in humanitarian work with extensive experience in emergency response."
+      },
+      {
+        "name": "Sarah Johnson",
+        "role": "Operations Director",
+        "image": "/images/team/sarah-johnson.jpg",
+        "bio": "Former UNHCR leader with expertise in logistics and field operations."
+      },
+      {
+        "name": "Dr. Fatima Khalid",
+        "role": "Programs Director",
+        "image": "/images/team/emily-rodriguez.jpg",
+        "bio": "Public health expert with a focus on sustainable development programs."
+      },
+      {
+        "name": "Michael Chen",
+        "role": "Partnerships Director",
+        "image": "/images/team/michael-chen.jpg",
+        "bio": "Specialist in building cross-sector partnerships for humanitarian impact."
+      }
+    ]
+  },
+  "fullTeamLink": "/team",
+  "impactStats": [
+    { "label": "Countries", "value": "35+", "icon": "FaGlobe" },
+    { "label": "Lives Impacted", "value": "3M+", "icon": "FaHandHoldingHeart" },
+    { "label": "Projects Completed", "value": "550+", "icon": "FaProjectDiagram" },
+    { "label": "Volunteers", "value": "10K+", "icon": "FaUsers" }
+  ],
+  "cta": {
+    "title": "Join Our Mission",
+    "description": "Whether you donate, volunteer, or spread the word, you can help us create a more just and compassionate world.",
+    "actions": [
+      { "label": "Donate Now", "link": "/donate", "type": "primary" },
+      { "label": "Become a Volunteer", "link": "/volunteer", "type": "secondary" }
+    ]
+  },
+  "mission": {
+    "description": "Our mission is to provide immediate relief and long-term solutions to communities in need, guided by compassion, integrity, and inclusivity.",
+    "statement": "To deliver humanitarian aid and sustainable development programs that empower individuals and transform communities.",
+    "vision": "A world where every person has the opportunity to live with dignity, security, and hope.",
+    "values": [
+      {
+        "icon": "FaHandHoldingHeart",
+        "title": "Compassion",
+        "description": "We act with empathy and care, recognizing the dignity and humanity of those we serve."
+      },
+      {
+        "icon": "FaCheck",
+        "title": "Integrity",
+        "description": "We maintain high ethical standards, transparency, and accountability in all our operations."
+      },
+      {
+        "icon": "FaGlobe",
+        "title": "Inclusivity",
+        "description": "We serve all people regardless of race, religion, nationality, or background."
+      }
+    ]
+  },
+  "governance": {
+    "description": "Our governance structure ensures transparency, accountability, and effective leadership across all levels of the organization.",
+    "structure": {
+      "board": [
+        {
+          "name": "Amina Yusuf",
+          "role": "Chairperson",
+          "bio": "Amina brings 20+ years of nonprofit governance experience.",
+          "image": "/images/board/chairman.jpg",
+          "linkedin": "https://linkedin.com/in/aminayusuf"
+        },
+        {
+          "name": "Omar Rahman",
+          "role": "Treasurer",
+          "bio": "Omar is a financial expert with a passion for humanitarian work.",
+          "image": "/images/board/executive-director.jpg",
+          "linkedin": "https://linkedin.com/in/omarrahman"
+        },
+        {
+          "name": "Jamal Hassan",
+          "role": "Secretary",
+          "bio": "Jamal has extensive experience in community development and advocacy.",
+          "image": "/images/board/vice-chairman.jpg",
+          "linkedin": "https://linkedin.com/in/jamalhassan"
+        }
+      ],
+      "committees": [
+        {
+          "name": "Audit Committee",
+          "description": "Oversees financial reporting and compliance."
+        },
+        {
+          "name": "Programs Committee",
+          "description": "Guides program strategy and impact assessment."
+        }
+      ]
+    }
+  },
+  "overview": {
+    "programs": [
+      {
+        "title": "Emergency Relief",
+        "description": "Rapid response to crises with food, water, shelter, and medical aid.",
+        "icon": "FaHandHoldingHeart"
+      },
+      {
+        "title": "Education",
+        "description": "Scholarships, school supplies, and educational programs for children and adults.",
+        "icon": "FaBook"
+      },
+      {
+        "title": "Healthcare",
+        "description": "Medical camps, health education, and access to essential medicines.",
+        "icon": "FaHeartbeat"
+      },
+      {
+        "title": "Sustainable Development",
+        "description": "Clean water, livelihoods, and infrastructure projects for long-term impact.",
+        "icon": "FaLeaf"
+      }
+    ]
+  },
+  "history": {
+    "title": "Our History",
+    "description": "Discover our journey, milestones, and the impact we've made since our founding.",
+    "events": [
+      {
+        "year": "2010",
+        "title": "Founded Ansar Relief",
+        "description": "A small group of volunteers launches Ansar Relief to respond to local crises.",
+        "image": "/images/sample/campaigns/earthquake-relief.jpg"
+      },
+      {
+        "year": "2015",
+        "title": "International Expansion",
+        "description": "Ansar Relief begins operations in 10 new countries.",
+        "image": "/images/sample/campaigns/food-security.jpg"
+      },
+      {
+        "year": "2020",
+        "title": "3 Million Lives Impacted",
+        "description": "Reached a major milestone in humanitarian aid and sustainable development.",
+        "image": "/images/sample/campaigns/healthcare.jpg"
+      }
+    ]
+  },
+  "transparency": {
+    "description": "We are committed to transparency and accountability in all our operations.",
+    "reports": [
+      {
+        "title": "2024 Annual Impact Report",
+        "year": "2024",
+        "downloadUrl": "/reports/2024-impact.pdf",
+        "summary": "A comprehensive overview of our programs, impact, and financials for 2024.",
+        "thumbnailImage": "/images/sample/app-main.jpg"
+      },
+      {
+        "title": "2023 Financial Statement",
+        "year": "2023",
+        "downloadUrl": "/reports/2023-financial.pdf",
+        "summary": "Audited financial statement for the fiscal year 2023.",
+        "thumbnailImage": "/images/sample/app-projects.jpg"
+      },
+      {
+        "title": "Community Engagement Study: Voices of Change",
+        "year": "2022",
+        "downloadUrl": "/reports/community-engagement-2022.pdf",
+        "summary": "Research findings on the effectiveness of our community programs and recommendations for future initiatives. Includes survey results from 500+ community members.",
+        "thumbnailImage": "/images/sample/app-donate.jpg"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Charity Navigator 4-Star Rating",
+        "issuer": "Charity Navigator",
+        "year": "2024",
+        "description": "The highest possible rating from America's largest independent charity evaluator, indicating that our organization exceeds industry standards for financial health, accountability, and transparency. This rating positions us among the most effective and trustworthy charitable organizations in America.",
+        "image": "/images/certifications/charity-navigator.png",
+        "verificationLink": "https://www.charitynavigator.org/",
+        "category": "Excellence",
+        "certNumber": "CN-0123456",
+        "expiryDate": "2025-12-31",
+        "criteria": [
+          "Program expense ratio exceeding 70% of total expenses",
+          "Administrative expenses less than 15% of total expenses",
+          "Independent and conflict-free board governance",
+          "Audited financial statements prepared by an independent accountant",
+          "No material diversion of assets in the last 5 years",
+          "Detailed listing of board members and executive staff on website"
+        ]
+      },
+      {
+        "title": "GuideStar Platinum Transparency",
+        "issuer": "GuideStar by Candid",
+        "year": "2024",
+        "description": "The highest level of recognition offered by GuideStar, demonstrating our commitment to transparency in reporting our organization's finances, governance, and impact. This certification reflects our dedication to accountability and openness with our stakeholders.",
+        "image": "/images/certifications/guidestar-platinum.png",
+        "verificationLink": "https://www.guidestar.org/",
+        "category": "Transparency",
+        "certNumber": "GS-2024-PLAT",
+        "expiryDate": "2025-12-31",
+        "criteria": [
+          "Publishing detailed financial information including audited financial statements",
+          "Disclosure of board governance practices and policies",
+          "Publishing organizational demographics",
+          "Sharing comprehensive information about strategic planning and measurement of programmatic impact",
+          "Regular updates to the GuideStar profile with current information"
+        ]
+      }
+    ],
+    "financials": {
+      "programExpenses": "83%",
+      "administrative": "10%",
+      "fundraising": "7%"
+    }
+  }
+}

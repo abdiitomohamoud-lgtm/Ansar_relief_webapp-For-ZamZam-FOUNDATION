@@ -1,0 +1,160 @@
+/* Ribbon container positioning */
+.ribbon-container {
+  position: relative;
+  overflow: visible !important;
+}
+
+/* Gold accent for certifications */
+.gold-accent::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 4px;
+  background: linear-gradient(180deg, #f59e0b, #d97706, #b45309, #92400e);
+}
+
+/* Seal effect for certification images */
+.certification-seal {
+  position: relative;
+}
+
+.certification-seal::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  right: -8px;
+  width: 30px;
+  height: 30px;
+  background-image: url('/images/certifications/wax-seal.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* QR code styling */
+.qr-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.95);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.qr-container:hover .qr-overlay {
+  opacity: 1;
+}
+
+/* Islamic-inspired divider */
+.islamic-divider {
+  position: relative;
+  height: 20px;
+  margin: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.islamic-divider::before,
+.islamic-divider::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: currentColor;
+  opacity: 0.2;
+}
+
+.islamic-divider-icon {
+  margin: 0 1rem;
+  color: #1d4ed8;
+  opacity: 0.7;
+}
+
+/* Print styles for reports and certifications */
+@media print {
+  /* General print adjustments */
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  
+  /* Hide non-printable elements */
+  button, 
+  .no-print,
+  .pattern-islamic,
+  .pattern-arabesque,
+  .pattern-moroccan,
+  .pattern-ottoman,
+  .pattern-persian,
+  .pattern-andalusian,
+  .pattern-geometric,
+  .islamic-divider {
+    display: none !important;
+  }
+  
+  /* Report card print styles */
+  .container {
+    width: 100% !important;
+    max-width: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  /* Force background colors to print */
+  .report-card,
+  .certification-card {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+    break-inside: avoid !important;
+  }
+  
+  /* Adjust grid for print */
+  .grid {
+    display: block !important;
+  }
+  
+  .grid > * {
+    margin-bottom: 20px !important;
+    width: 100% !important;
+  }
+  
+  /* Ensure text is readable */
+  h3 {
+    font-size: 16pt !important;
+    color: black !important;
+  }
+  
+  p {
+    font-size: 11pt !important;
+    color: black !important;
+  }
+  
+  /* Add URLs after links */
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 80%;
+    color: #666;
+  }
+  
+  /* Page breaks */
+  .certification-card {
+    page-break-inside: avoid;
+  }
+  
+  h2 {
+    page-break-before: always;
+  }
+  
+  h2:first-of-type {
+    page-break-before: avoid;
+  }
+} 

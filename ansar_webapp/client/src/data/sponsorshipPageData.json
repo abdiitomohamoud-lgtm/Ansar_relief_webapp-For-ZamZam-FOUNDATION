@@ -1,0 +1,9 @@
+{
+  "sponsorshipTypes": [
+    { "name": "Orphan", "path": "orphan", "description": "Sponsor an orphan and change their life" },
+    { "name": "Student", "path": "student", "description": "Support a student's education" },
+    { "name": "Family", "path": "family", "description": "Help a family in need" },
+    { "name": "Teacher", "path": "teacher", "description": "Support an educator" },
+    { "name": "Special Needs", "path": "special-needs", "description": "Help those with special needs" }
+  ]
+}

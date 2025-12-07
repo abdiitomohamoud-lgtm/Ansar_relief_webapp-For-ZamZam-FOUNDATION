@@ -1,0 +1,1 @@
+This is a backup of your homePageData.json as of 2025-06-30, before sponsorship link edits. If you need to restore, copy this file's contents back to homePageData.json.

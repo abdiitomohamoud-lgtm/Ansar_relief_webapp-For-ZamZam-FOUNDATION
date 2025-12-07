@@ -1,0 +1,38 @@
+[
+  {
+    "id": "general-1",
+    "title": "General Sadaqah",
+    "subtitle": "Daily Sadaqah",
+    "description": "Make a general donation to support our various humanitarian projects.",
+    "iconName": "FaCalendarAlt",
+    "icon": "FaCalendarAlt",
+    "impact": "Your donation will help us provide essential support to communities in need.",
+    "suggestedAmounts": [10, 25, 50, 100, 250],
+    "color": "bg-blue-500",
+    "cta": "Donate Now"
+  },
+  {
+    "id": "water-2",
+    "title": "Water Sadaqah",
+    "subtitle": "Clean Water Initiative",
+    "description": "Help provide clean water to communities in need.",
+    "iconName": "FaWater",
+    "icon": "FaWater",
+    "impact": "Your donation will help provide clean water access to communities.",
+    "suggestedAmounts": [20, 50, 100, 200, 500],
+    "color": "bg-cyan-500",
+    "cta": "Donate Now"
+  },
+  {
+    "id": "food-2",
+    "title": "Food Sadaqah",
+    "subtitle": "Feed the Hungry",
+    "description": "Support food security programs and provide meals to those in need.",
+    "iconName": "FaUtensils",
+    "icon": "FaUtensils",
+    "impact": "Your donation will help provide food to families in need.",
+    "suggestedAmounts": [15, 30, 60, 120, 300],
+    "color": "bg-orange-500",
+    "cta": "Donate Now"
+  }
+]

@@ -1,0 +1,399 @@
+{
+  "hero": {
+    "title": "Transform Lives Through Sponsorship",
+    "subtitle": "Make a Lasting Impact Through Sponsorship",
+    "description": "Your sponsorship provides sustainable support to those in need, helping them build a better future through education, healthcare, and essential resources.",
+    "ctaButtons": [
+      { "text": "Start Sponsoring", "anchor": "/sponsorship/orphan" },
+      { "text": "Learn More", "anchor": "/about" }
+    ]
+  },
+  "impactStats": [
+    { "icon": "FaSchool", "value": "50+", "label": "Schools Built", "color": "text-blue-600" },
+    { "icon": "FaUserFriends", "value": "10,000+", "label": "Lives Changed", "color": "text-green-600" },
+    { "icon": "FaHandHoldingUsd", "value": "$5M+", "label": "Funds Raised", "color": "text-yellow-600" },
+    { "icon": "FaChartPie", "value": "98%", "label": "Success Rate", "color": "text-purple-600" }
+  ],
+  "categories": [
+    {
+      "id": "orphan",
+      "title": "Orphan Sponsorship",
+      "description": "Support orphaned children with education, healthcare, and basic needs.",
+      "icon": "FaUser",
+      "path": "/sponsorship/orphan",
+      "image": "/images/sponsorships/orphan.jpg",
+      "stats": "1,200+ Children",
+      "impact": "Comprehensive Care",
+      "monthlyAmount": 150,
+      "features": [
+        "Education support",
+        "Healthcare coverage",
+        "Basic needs provision",
+        "Psychological support",
+        "Regular progress reports"
+      ],
+      "filters": [
+        { "id": "all", "label": "All" },
+        { "id": "education", "label": "Education" },
+        { "id": "healthcare", "label": "Healthcare" },
+        { "id": "basic-needs", "label": "Basic Needs" }
+      ],
+      "items": [
+        {
+          "id": "1",
+          "name": "Ahmed Hassan",
+          "type": "orphan",
+          "description": "Ahmed is a 7-year-old boy who lost both parents in a conflict. He is currently living with his elderly grandmother who struggles to provide for his needs.",
+          "image": "/images/sponsorships/orphan.jpg",
+          "location": "Syria",
+          "age": 7,
+          "gender": "male",
+          "monthlyAmount": 50,
+          "yearlyAmount": 600,
+          "isActive": true,
+          "isSponsored": false,
+          "story": "Ahmed is a bright and resilient 7-year-old boy who lost both his parents during the conflict in Syria. Despite the trauma he has experienced, Ahmed maintains a positive attitude and dreams of becoming a doctor one day. He currently lives with his elderly grandmother who does her best to care for him but struggles with limited resources. Ahmed enjoys school and is particularly good at mathematics. He also loves playing soccer with his friends. By sponsoring Ahmed, you will help provide: Nutritious food and clean water, School fees, books, and supplies, Healthcare and regular check-ups, Clothing and other basic necessities, Emotional support and counseling. Your sponsorship will make a significant difference in Ahmed's life, giving him hope for a brighter future."
+        },
+        {
+          "id": "2",
+          "name": "Fatima Ali",
+          "type": "orphan",
+          "description": "Fatima is a 9-year-old girl who lost her parents in a natural disaster. She lives with her aunt who has three children of her own and limited resources.",
+          "image": "/images/sponsorships/orphan.jpg",
+          "location": "Pakistan",
+          "age": 9,
+          "gender": "female",
+          "monthlyAmount": 50,
+          "yearlyAmount": 600,
+          "isActive": true,
+          "isSponsored": false,
+          "story": "Fatima is a sweet and intelligent 9-year-old girl who lost her parents in a devastating flood that swept through her village in Pakistan. She now lives with her aunt who is already struggling to provide for her own three children. Despite the challenges she faces, Fatima is determined to continue her education. She is a diligent student who loves reading and writing stories. Her teachers describe her as helpful and kind to her classmates. By sponsoring Fatima, you will help provide: Nutritious food and clean water, School fees, books, and supplies, Healthcare and regular check-ups, Clothing and other basic necessities, Emotional support and counseling. Your sponsorship will ensure that Fatima can continue her education and work toward a better future."
+        }
+      ]
+    },
+    {
+      "id": "student",
+      "title": "Student Sponsorship",
+      "description": "Empower students to achieve their academic and career goals.",
+      "icon": "FaGraduationCap",
+      "path": "/sponsorship/student",
+      "image": "https://images.unsplash.com/photo-1517436079786-74b_a2b2e6f2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "stats": "3,000+ Students",
+      "impact": "Educational Advancement",
+      "monthlyAmount": 100,
+      "features": [
+        "Tuition coverage",
+        "Access to learning materials",
+        "Mentorship programs",
+        "Career counseling",
+        "Internship opportunities"
+      ],
+      "filters": [
+        { "id": "all", "label": "All" },
+        { "id": "university", "label": "University" },
+        { "id": "high-school", "label": "High School" },
+        { "id": "vocational", "label": "Vocational" }
+      ],
+      "items": [
+        {
+          "id": 1,
+          "name": "Sarah",
+          "age": 19,
+          "location": "Yemen",
+          "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+          "story": "Sarah dreams of becoming a doctor to help her community. She needs support to continue her medical studies.",
+          "program": "university",
+          "monthlyCost": 200,
+          "sponsored": false
+        },
+        {
+          "id": 2,
+          "name": "Ahmed",
+          "age": 16,
+          "location": "Syria",
+          "image": "https://images.unsplash.com/photo-1529390079861-591de354faf5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+          "story": "Ahmed is a bright student who wants to study engineering. He needs support to complete his high school education.",
+          "program": "high-school",
+          "monthlyCost": 150,
+          "sponsored": false
+        },
+        {
+          "id": 3,
+          "name": "Fatima",
+          "age": 20,
+          "location": "Gaza",
+          "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+          "story": "Fatima is studying computer science and needs support to continue her education.",
+          "program": "university",
+          "monthlyCost": 180,
+          "sponsored": true
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "title": "Family Sponsorship",
+      "description": "Support families in need with essential resources and stability.",
+      "icon": "FaHome",
+      "path": "/sponsorship/family",
+      "image": "https://images.unsplash.com/photo-1519817650390-64a93db51149?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "stats": "500+ Families",
+      "impact": "Sustainable Aid",
+      "monthlyAmount": 200,
+      "features": [
+        "Monthly food supplies",
+        "Housing support",
+        "Healthcare access",
+        "Skills training",
+        "Income generation support"
+      ],
+      "filters": [
+        { "id": "all", "label": "All" },
+        { "id": "displaced", "label": "Displaced" },
+        { "id": "single-parent", "label": "Single Parent" },
+        { "id": "low-income", "label": "Low Income" }
+      ],
+      "items": [
+        {
+          "id": 1,
+          "name": "Al-Masri Family",
+          "members": 5,
+          "location": "Syria",
+          "image": "https://images.unsplash.com/photo-1519817650390-64a93db51149?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+          "story": "The Al-Masri family lost their home in the conflict. They need support to rebuild their lives and provide for their children.",
+          "type": "displaced",
+          "monthlyCost": 300,
+          "sponsored": false
+        },
+        {
+          "id": 2,
+          "name": "Hassan Family",
+          "members": 4,
+          "location": "Yemen",
+          "image": "https://images.unsplash.com/photo-1529390079861-591de354faf5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+          "story": "Mrs. Hassan is a single mother raising three children. She needs support to provide education and healthcare for her family.",
+          "type": "single-parent",
+          "monthlyCost": 250,
+          "sponsored": false
+        },
+        {
+          "id": 3,
+          "name": "Abdullah Family",
+          "members": 6,
+          "location": "Gaza",
+          "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+          "story": "The Abdullah family struggles with low income and needs support to meet their basic needs.",
+          "type": "low-income",
+          "monthlyCost": 350,
+          "sponsored": true
+        }
+      ]
+    },
+    {
+      "id": "teacher",
+      "title": "Teacher Sponsorship",
+      "description": "Support educators who are making a difference in their communities.",
+      "icon": "FaChalkboardTeacher",
+      "path": "/sponsorship/teacher",
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "stats": "300+ Teachers",
+      "impact": "Quality Education",
+      "monthlyAmount": 175,
+      "features": [
+        "Professional development",
+        "Teaching resources",
+        "Classroom supplies",
+        "Training workshops",
+        "Community impact"
+      ],
+      "filters": [
+        { "id": "all", "label": "All" },
+        { "id": "primary", "label": "Primary School" },
+        { "id": "secondary", "label": "Secondary School" },
+        { "id": "special-education", "label": "Special Education" }
+      ],
+      "items": [
+        {
+          "id": 1,
+          "name": "Amina Hassan",
+          "subject": "Mathematics",
+          "location": "Somalia",
+          "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+          "story": "Amina teaches mathematics to primary school students in a rural area. She needs support to continue her work and improve her teaching methods.",
+          "type": "primary",
+          "monthlyCost": 200,
+          "sponsored": false
+        },
+        {
+          "id": 2,
+          "name": "Mohammed Ali",
+          "subject": "Science",
+          "location": "Yemen",
+          "image": "https://images.unsplash.com/photo-1529390079861-591de354faf5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+          "story": "Mohammed teaches science to secondary school students. He needs support to purchase laboratory equipment and teaching materials.",
+          "type": "secondary",
+          "monthlyCost": 250,
+          "sponsored": false
+        },
+        {
+          "id": 3,
+          "name": "Fatima Ahmed",
+          "subject": "Special Education",
+          "location": "Syria",
+          "image": "https://images.unsplash.com/photo-1519817650390-64a93db51149?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+          "story": "Fatima works with children with special needs. She needs support to provide specialized education and care.",
+          "type": "special-education",
+          "monthlyCost": 300,
+          "sponsored": true
+        }
+      ]
+    },
+    {
+      "id": "special-needs",
+      "title": "Special Needs",
+      "description": "Provide specialized care and support for individuals with special needs.",
+      "icon": "FaWheelchair",
+      "path": "/sponsorship/special-needs",
+      "image": "https://images.unsplash.com/photo-1516589091380-5d9e09bdd779?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      "stats": "200+ Individuals",
+      "impact": "Specialized Care",
+      "monthlyAmount": 250,
+      "features": [
+        "Specialized therapy",
+        "Medical equipment",
+        "Caregiver support",
+        "Educational programs",
+        "Social integration"
+      ],
+      "filters": [
+        { "id": "all", "label": "All" },
+        { "id": "physical", "label": "Physical Disabilities" },
+        { "id": "intellectual", "label": "Intellectual Disabilities" },
+        { "id": "sensory", "label": "Sensory Disabilities" }
+      ],
+      "items": [
+        {
+          "id": 1,
+          "name": "Ahmed Hassan",
+          "age": 12,
+          "location": "Somalia",
+          "image": "https://images.unsplash.com/photo-1519817650390-64a93db51149?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+          "story": "Ahmed has cerebral palsy and needs support for physical therapy and specialized education.",
+          "type": "physical",
+          "monthlyCost": 300,
+          "sponsored": false
+        },
+        {
+          "id": 2,
+          "name": "Fatima Ali",
+          "age": 8,
+          "location": "Yemen",
+          "image": "https://images.unsplash.com/photo-1519817650390-64a93db51149?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+          "story": "Fatima has Down syndrome and needs support for specialized education and therapy.",
+          "type": "intellectual",
+          "monthlyCost": 250,
+          "sponsored": false
+        },
+        {
+          "id": 3,
+          "name": "Mohammed Ahmed",
+          "age": 15,
+          "location": "Syria",
+          "image": "https://images.unsplash.com/photo-1519817650390-64a93db51149?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+          "story": "Mohammed is visually impaired and needs support for specialized education and assistive devices.",
+          "type": "sensory",
+          "monthlyCost": 200,
+          "sponsored": true
+        }
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "icon": "FaBook",
+      "title": "Education",
+      "description": "Access to quality education and learning resources",
+      "details": [
+        "School fees and supplies",
+        "Educational materials",
+        "Tutoring support",
+        "Digital learning tools"
+      ]
+    },
+    {
+      "icon": "FaStethoscope",
+      "title": "Healthcare",
+      "description": "Regular medical care and access to healthcare services",
+      "details": [
+        "Medical check-ups",
+        "Medications",
+        "Specialized treatments",
+        "Preventive care"
+      ]
+    },
+    {
+      "icon": "FaUtensils",
+      "title": "Basic Needs",
+      "description": "Essential daily requirements and living support",
+      "details": [
+        "Nutritious food",
+        "Clean water",
+        "Hygiene supplies",
+        "Clothing"
+      ]
+    },
+    {
+      "icon": "FaShieldAlt",
+      "title": "Protection",
+      "description": "Safe environment and social support",
+      "details": [
+        "Safe housing",
+        "Legal assistance",
+        "Social services",
+        "Community support"
+      ]
+    }
+  ],
+  "processSteps": [
+    {
+      "icon": "FaChartLine",
+      "title": "Choose Program",
+      "description": "Select the sponsorship program that aligns with your goals"
+    },
+    {
+      "icon": "FaComments",
+      "title": "Get Matched",
+      "description": "We match you with a beneficiary based on your preferences"
+    },
+    {
+      "icon": "FaCalendarAlt",
+      "title": "Start Sponsoring",
+      "description": "Begin your sponsorship journey with regular updates"
+    },
+    {
+      "icon": "FaGift",
+      "title": "Make Impact",
+      "description": "Watch your support transform lives and communities"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Ahmed Al-Mansoori",
+      "role": "Orphan Sponsor",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+      "quote": "Sponsoring an orphan has been one of the most rewarding experiences of my life. Seeing their progress and happiness is priceless."
+    },
+    {
+      "name": "Fatima Al-Sulaiti",
+      "role": "Student Sponsor",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+      "quote": "Education is the key to a better future. Through sponsorship, I'm helping students achieve their dreams."
+    },
+    {
+      "name": "Mohammed Al-Thani",
+      "role": "Family Sponsor",
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+      "quote": "Supporting a family in need has shown me the true meaning of community and compassion."
+    }
+  ]
+}

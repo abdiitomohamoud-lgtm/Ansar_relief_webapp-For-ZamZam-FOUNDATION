@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Clean Water Initiative",
+    "slug": "clean-water-initiative",
+    "description": "<p>Providing access to clean and safe drinking water in rural areas.</p>",
+    "image": "/assets/images/projects/water.jpg",
+    "budget": 10000,
+    "category": "60f7c0b8e1d2c81234567890"
+  },
+  {
+    "title": "School Renovation Project",
+    "slug": "school-renovation-project",
+    "description": "<p>Renovating schools to create a better learning environment for children.</p>",
+    "image": "/assets/images/projects/school.jpg",
+    "budget": 15000,
+    "category": "60f7c0b8e1d2c81234567890"
+  }
+]

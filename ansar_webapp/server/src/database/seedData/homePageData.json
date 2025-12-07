@@ -1,0 +1,539 @@
+{
+  "featuredCampaigns": [
+    {
+      "id": 1,
+      "title": "Clean Water Initiative",
+      "description": "Provide clean water to communities in need",
+      "image": "/images/campaigns/water-project.jpg",
+      "raised": 15000,
+      "goal": 25000,
+      "category": "Water",
+      "daysLeft": 15,
+      "licenseNumber": "2024"
+    },
+    {
+      "id": 2,
+      "title": "Education for All",
+      "description": "Support education for underprivileged children",
+      "image": "/images/campaigns/education.jpg",
+      "raised": 8500,
+      "goal": 20000,
+      "category": "Education",
+      "daysLeft": 30,
+      "licenseNumber": "2024"
+    },
+    {
+      "id": 3,
+      "title": "Emergency Relief: Gaza",
+      "description": "Provide urgent humanitarian aid to families in Gaza",
+      "image": "/images/campaigns/emergency.jpg",
+      "raised": 45000,
+      "goal": 100000,
+      "category": "Relief",
+      "daysLeft": 7,
+      "licenseNumber": "2024"
+    },
+    {
+      "id": 4,
+      "title": "Orphan Sponsorship Program",
+      "description": "Help provide care and education for orphaned children",
+      "image": "/images/campaigns/orphans.jpg",
+      "raised": 12000,
+      "goal": 50000,
+      "category": "Sponsorship",
+      "daysLeft": 0,
+      "licenseNumber": "2025"
+    }
+  ],
+  "impactStats": {
+    "beneficiaries": 250000,
+    "countries": 35,
+    "projects": 1200,
+    "volunteers": 5000
+  },
+  "urgentCases": [
+    {
+      "id": 101,
+      "title": "Medical Treatment for Ahmed",
+      "description": "Ahmed needs urgent surgery to treat his heart condition",
+      "amount": 5000,
+      "remaining": 2000,
+      "image": "/images/urgent/medical.jpg"
+    },
+    {
+      "id": 102,
+      "title": "Support for Widow with 4 Children",
+      "description": "Help a widow provide for her young children after losing her husband",
+      "amount": 3000,
+      "remaining": 1200,
+      "image": "/images/urgent/family.jpg"
+    }
+  ],
+  "currentCampaigns": [
+    {
+      "id": 201,
+      "title": "Empowering Poor Families",
+      "description": "Help families rise out of poverty through sustainable support",
+      "image": "/images/campaigns/family-support.jpg",
+      "raised": 24000,
+      "goal": 50000,
+      "category": "Family Support",
+      "daysLeft": 25,
+      "licenseNumber": "2024",
+      "isUrgent": false
+    },
+    {
+      "id": 202,
+      "title": "Giving Lives On",
+      "description": "Ongoing support for communities affected by natural disasters",
+      "image": "/images/campaigns/disaster-relief.jpg",
+      "raised": 35600,
+      "goal": 60000,
+      "category": "Disaster Relief",
+      "daysLeft": 12,
+      "licenseNumber": "2025",
+      "isUrgent": false
+    },
+    {
+      "id": 203,
+      "title": "Embrace the Blessings of Giving",
+      "description": "A chance to multiply your rewards through charitable giving",
+      "image": "/images/campaigns/ramadan.jpg",
+      "raised": 28700,
+      "goal": 40000,
+      "category": "Ramadan",
+      "daysLeft": 8,
+      "licenseNumber": "2025",
+      "isUrgent": false
+    },
+    {
+      "id": 204,
+      "title": "Labbeh Gaza: Together, We Restore Hope",
+      "description": "Urgent humanitarian assistance for families in Gaza",
+      "image": "/images/campaigns/gaza-relief.jpg",
+      "raised": 78000,
+      "goal": 150000,
+      "category": "Emergency Relief",
+      "daysLeft": 5,
+      "licenseNumber": "2024",
+      "isUrgent": true
+    }
+  ],
+  "programs": [
+    {
+      "title": "Sadaqah",
+      "icon": "FaHandHoldingHeart",
+      "link": "/sadaqah",
+      "color": "from-orange-500 to-red-500",
+      "bgLight": "bg-orange-50",
+      "border": "border-orange-100",
+      "textHover": "group-hover:text-orange-600",
+      "shadow": "group-hover:shadow-orange-200/50",
+      "description": "Support those in need"
+    },
+    {
+      "title": "Zakat",
+      "icon": "FaMoneyBillWave",
+      "link": "/sadaqah/zakat-calculator",
+      "color": "from-emerald-500 to-teal-600",
+      "bgLight": "bg-emerald-50",
+      "border": "border-emerald-100",
+      "textHover": "group-hover:text-emerald-600",
+      "shadow": "group-hover:shadow-emerald-200/50",
+      "description": "Fulfill your obligation"
+    },
+    {
+      "title": "Sponsorships",
+      "icon": "FaUsers",
+      "link": "/sponsorship",
+      "color": "from-blue-500 to-indigo-600",
+      "bgLight": "bg-blue-50",
+      "border": "border-blue-100",
+      "textHover": "group-hover:text-blue-600",
+      "shadow": "group-hover:shadow-blue-200/50",
+      "description": "Change a life today"
+    },
+    {
+      "title": "Water",
+      "icon": "FaWater",
+      "link": "/projects/categories/water",
+      "color": "from-cyan-500 to-blue-600",
+      "bgLight": "bg-cyan-50",
+      "border": "border-cyan-100",
+      "textHover": "group-hover:text-cyan-600",
+      "shadow": "group-hover:shadow-cyan-200/50",
+      "description": "Provide clean water"
+    },
+    {
+      "title": "Education",
+      "icon": "FaGraduationCap",
+      "link": "/projects/categories/education",
+      "color": "from-amber-500 to-orange-600",
+      "bgLight": "bg-amber-50",
+      "border": "border-amber-100",
+      "textHover": "group-hover:text-amber-600",
+      "shadow": "group-hover:shadow-amber-200/50",
+      "description": "Build a brighter future"
+    },
+    {
+      "title": "Food Aid",
+      "icon": "FaUtensils",
+      "link": "/projects/categories/relief",
+      "color": "from-purple-500 to-indigo-600",
+      "bgLight": "bg-purple-50",
+      "border": "border-purple-100",
+      "textHover": "group-hover:text-purple-600",
+      "shadow": "group-hover:shadow-purple-200/50",
+      "description": "Fight hunger together"
+    }
+  ],
+  "sadaqahTypes": [
+    {
+      "title": "General Sadaqah",
+      "description": "Your donation will be used where needed most",
+      "icon": "FaHeart",
+      "link": "/sadaqah"
+    },
+    {
+      "title": "Sadaqah Jariyah",
+      "description": "Ongoing charity that continues to benefit others",
+      "icon": "FaWater",
+      "link": "/sadaqah"
+    },
+    {
+      "title": "Friday Sadaqah",
+      "description": "Special virtue in giving charity on Fridays",
+      "icon": "FaMosque",
+      "link": "/sadaqah"
+    },
+    {
+      "title": "Food Sadaqah",
+      "description": "Provide meals to those who are hungry",
+      "icon": "FaBreadSlice",
+      "link": "/sadaqah"
+    }
+  ],
+  "sponsorshipPrograms": [
+    {
+      "title": "Orphan Sponsorship",
+      "description": "Provide care, education, and support for orphaned children",
+      "image": "/images/sponsorships/orphan.jpg",
+      "amount": "$50/month",
+      "link": "/sponsorship/orphan",
+      "icon": "FaUsers",
+      "benefits": ["Food & Clothing", "Education", "Healthcare", "Emotional Support"]
+    },
+    {
+      "title": "Family Sponsorship",
+      "description": "Help families in need with essential living expenses",
+      "image": "/images/sponsorships/family.jpg",
+      "amount": "$100/month",
+      "link": "/sponsorship/family",
+      "icon": "FaHome",
+      "benefits": ["Food Assistance", "Housing Support", "Utility Bills", "Education"]
+    },
+    {
+      "title": "Student Sponsorship",
+      "description": "Support a student's education and help shape their future",
+      "image": "/images/sponsorships/student.jpg",
+      "amount": "$35/month",
+      "link": "/sponsorship/student",
+      "icon": "FaGraduationCap",
+      "benefits": ["Tuition Fees", "School Supplies", "Transportation", "Mentorship"]
+    }
+  ],
+  "howWeWorkSteps": [
+    {
+      "step": 1,
+      "title": "Donation",
+      "description": "Your generous donation is securely processed and allocated to your chosen cause.",
+      "icon": "FaHeart",
+      "color": "from-primary-600 to-primary-500",
+      "bgLight": "bg-primary-50",
+      "textColor": "text-primary-600"
+    },
+    {
+      "step": 2,
+      "title": "Planning",
+      "description": "Our team assesses needs and develops effective implementation strategies.",
+      "icon": "FaUsers",
+      "color": "from-emerald-600 to-emerald-500",
+      "bgLight": "bg-emerald-50",
+      "textColor": "text-emerald-600"
+    },
+    {
+      "step": 3,
+      "title": "Implementation",
+      "description": "Projects are implemented with strict oversight and quality standards.",
+      "icon": "FaHandsHelping",
+      "color": "from-amber-600 to-amber-500",
+      "bgLight": "bg-amber-50",
+      "textColor": "text-amber-600"
+    },
+    {
+      "step": 4,
+      "title": "Impact",
+      "description": "We report back to you with stories, stats, and updates on the difference you made.",
+      "icon": "FaCheck",
+      "color": "from-green-600 to-green-500",
+      "bgLight": "bg-green-50",
+      "textColor": "text-green-600"
+    }
+  ],
+  "appInfo": {
+    "title": "Charity in Your Pocket: Download Our App",
+    "description": "Make a difference anytime, anywhere. Our mobile app makes donating, tracking your impact, and staying updated easier than ever.",
+    "features": [
+      "Donate with just a few taps",
+      "Track your donation history and impact",
+      "Get real-time updates about projects you support",
+      "Set up recurring donations easily",
+      "Discover nearby charity events"
+    ],
+    "appStoreLink": "/about",
+    "googlePlayLink": "/about",
+    "screenshots": [
+      "/images/sample/app-main.jpg",
+      "/images/sample/app-donate.jpg",
+      "/images/sample/app-projects.jpg"
+    ]
+  },
+  "heroSlides": [
+    {
+      "id": 1,
+      "title": "Empowering Communities",
+      "subtitle": "Give Hope, Build Futures",
+      "description": "Your generosity today can transform lives tomorrow. Join us in creating lasting impact for communities in need across the globe.",
+      "image": "/images/sample/campaigns/earthquake-relief.jpg",
+      "btnText": "Support Our Mission",
+      "btnLink": "/campaigns",
+      "licenseNumber": "LC2024-01",
+      "color": "from-primary-800/90 via-primary-700/80 to-primary-900/40",
+      "textColor": "text-white",
+      "gradientText": "bg-gradient-to-r from-white to-primary-100 bg-clip-text text-transparent",
+      "icon": "FaHandHoldingHeart",
+      "highlight": "90% of donations directly reach those in need",
+      "iconBg": "from-primary-500 to-primary-700",
+      "backgroundPatterns": [
+        "/images/patterns/islamic-pattern-1.svg",
+        "/images/patterns/arabesque-1.svg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Emergency Medical Relief",
+      "subtitle": "Urgent Healthcare Support",
+      "description": "Families in crisis need vital medical care. Your donation provides essential treatments, medicine, and healthcare support to those who need it most.",
+      "image": "/images/sample/campaigns/healthcare.jpg",
+      "btnText": "Donate Now",
+      "btnLink": "/campaigns",
+      "licenseNumber": "LC2024-02",
+      "color": "from-violet-800/90 via-violet-700/80 to-violet-900/40",
+      "textColor": "text-white",
+      "gradientText": "bg-gradient-to-r from-white to-violet-100 bg-clip-text text-transparent",
+      "icon": "FaMedkit",
+      "highlight": "Urgent medical supplies, treatments, and healthcare facilities",
+      "iconBg": "from-violet-500 to-violet-700",
+      "backgroundPatterns": [
+        "/images/patterns/islamic-pattern-2.svg",
+        "/images/patterns/arabesque-2.svg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Education for Every Child",
+      "subtitle": "Unlocking Potential",
+      "description": "Help us provide quality education and school supplies to children in underserved communities. Every child deserves a chance to learn and thrive.",
+      "image": "/images/sample/campaigns/education.jpg",
+      "btnText": "Sponsor Education",
+      "btnLink": "/campaigns",
+      "licenseNumber": "LC2024-03",
+      "color": "from-amber-700/90 via-yellow-600/80 to-amber-800/40",
+      "textColor": "text-white",
+      "gradientText": "bg-gradient-to-r from-white to-yellow-100 bg-clip-text text-transparent",
+      "icon": "FaGraduationCap",
+      "highlight": "Education changes lives for generations",
+      "iconBg": "from-amber-400 to-yellow-600",
+      "backgroundPatterns": [
+        "/images/patterns/islamic-pattern-3.svg",
+        "/images/patterns/arabesque-3.svg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Food Security & Nutrition",
+      "subtitle": "No One Left Hungry",
+      "description": "Join our mission to fight hunger and malnutrition. Your support delivers food packages and nutrition programs to families in need.",
+      "image": "/images/sample/campaigns/food-packages.jpg",
+      "btnText": "Feed a Family",
+      "btnLink": "/campaigns",
+      "licenseNumber": "LC2024-04",
+      "color": "from-orange-700/90 via-orange-600/80 to-orange-900/40",
+      "textColor": "text-white",
+      "gradientText": "bg-gradient-to-r from-white to-orange-100 bg-clip-text text-transparent",
+      "icon": "FaUtensils",
+      "highlight": "Over 100,000 meals delivered last year",
+      "iconBg": "from-orange-500 to-orange-700",
+      "backgroundPatterns": [
+        "/images/patterns/islamic-pattern-4.svg",
+        "/images/patterns/arabesque-4.svg"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "ANSAR Launches New Water Project in Somalia",
+      "excerpt": "Our latest initiative aims to provide clean water to over 10,000 people in rural Somalia, addressing urgent needs in drought-affected areas.",
+      "content": "In a major step towards sustainable development, ANSAR has launched a new water project in Somalia. The project will install solar-powered wells and filtration systems, ensuring access to clean water for over 10,000 people. Community leaders and local volunteers are actively involved, and the project is expected to reduce waterborne diseases and improve quality of life.",
+      "image": "/images/sample/campaigns/clean-water.jpg",
+      "gallery": [
+        "/images/sample/campaigns/clean-water.jpg",
+        "/images/sample/campaigns/water-project.jpg",
+        "/images/sample/campaigns/earthquake-relief.jpg"
+      ],
+      "category": "Water & Sanitation",
+      "author": "Admin Team",
+      "date": "2023-06-15",
+      "comments": 12,
+      "featured": true,
+      "tags": ["Water", "Somalia", "Development"],
+      "readTime": "4 min read"
+    },
+    {
+      "id": 2,
+      "title": "Education Drive Reaches 5,000 Children in Yemen",
+      "excerpt": "Through generous donations, ANSAR has successfully provided educational materials and support to children affected by conflict in Yemen.",
+      "content": "The education drive in Yemen has distributed books, uniforms, and school supplies to over 5,000 children. Many of these children had not attended school for years due to conflict. ANSAR's local partners are also providing after-school tutoring and psychosocial support to help children catch up and thrive.",
+      "image": "/images/sample/campaigns/education.jpg",
+      "gallery": [
+        "/images/sample/campaigns/education.jpg",
+        "/images/sample/campaigns/ramadan.jpg",
+        "/images/sample/campaigns/orphans.jpg"
+      ],
+      "category": "Education",
+      "author": "Sarah Ahmed",
+      "date": "2023-06-10",
+      "comments": 8,
+      "featured": false,
+      "tags": ["Education", "Yemen", "Children"],
+      "readTime": "3 min read"
+    },
+    {
+      "id": 3,
+      "title": "Ramadan Food Distribution Impact",
+      "excerpt": "Over 20,000 food packages were distributed to families in need during Ramadan, thanks to your support.",
+      "content": "During Ramadan, ANSAR volunteers worked day and night to deliver food packages to families in remote and urban areas. The packages included rice, flour, oil, and dates. Beneficiaries expressed deep gratitude, and many shared that this support was their only source of food during the holy month.",
+      "image": "/images/sample/campaigns/ramadan.jpg",
+      "category": "Food",
+      "author": "Fatima Noor",
+      "date": "2023-04-20",
+      "comments": 5,
+      "featured": false,
+      "tags": ["Ramadan", "Food", "Distribution"],
+      "readTime": "2 min read"
+    },
+    {
+      "id": 4,
+      "title": "Orphan Sponsorship Success Story",
+      "excerpt": "Meet Amina, whose life was transformed through our Orphan Sponsorship Program.",
+      "content": "Amina lost her parents at a young age and struggled to continue her education. Through ANSAR's Orphan Sponsorship Program, she received school fees, supplies, and mentorship. Today, Amina is a top student and dreams of becoming a doctor to help her community.",
+      "image": "/images/sample/campaigns/orphans.jpg",
+      "category": "Sponsorship",
+      "author": "Mohammed Al-Farsi",
+      "date": "2023-05-12",
+      "comments": 3,
+      "featured": false,
+      "tags": ["Orphan", "Sponsorship", "Success"],
+      "readTime": "3 min read"
+    },
+    {
+      "id": 5,
+      "title": "Medical Aid Delivered to Gaza Hospitals",
+      "excerpt": "Critical medical supplies and equipment have reached hospitals in Gaza, providing lifesaving care.",
+      "content": "ANSAR's medical aid shipment included ventilators, medicines, and surgical kits. Hospital staff reported that the supplies arrived just in time to treat patients injured in recent violence. ANSAR continues to monitor needs and plans further shipments as funding allows.",
+      "image": "/images/sample/campaigns/healthcare.jpg",
+      "category": "Healthcare",
+      "author": "Layla Hassan",
+      "date": "2023-07-01",
+      "comments": 7,
+      "featured": false,
+      "tags": ["Medical", "Gaza", "Healthcare"],
+      "readTime": "4 min read"
+    },
+    {
+      "id": 6,
+      "title": "New Vocational Training Center Opens in Sudan",
+      "excerpt": "ANSAR has opened a new vocational training center in Khartoum to empower youth with practical skills for employment.",
+      "content": "The new center offers courses in carpentry, tailoring, and computer skills. Over 200 youth have already enrolled, and local businesses are partnering to offer internships. The project aims to reduce youth unemployment and foster entrepreneurship.",
+      "image": "/images/sample/campaigns/vocational-training.jpg",
+      "category": "Development",
+      "author": "Hassan Idris",
+      "date": "2023-08-10",
+      "comments": 2,
+      "featured": false,
+      "tags": ["Sudan", "Training", "Youth"],
+      "readTime": "3 min read"
+    },
+    {
+      "id": 7,
+      "title": "Solar Power Brings Light to Rural Villages",
+      "excerpt": "A new solar energy project is providing sustainable electricity to remote villages in Niger, improving quality of life.",
+      "content": "Solar panels and battery systems have been installed in three villages, powering homes, schools, and clinics. Residents report improved safety and the ability to study at night. ANSAR plans to expand the project to more communities next year.",
+      "image": "/images/sample/campaigns/solar-power.jpg",
+      "category": "Energy",
+      "author": "Amina Bello",
+      "date": "2023-08-15",
+      "comments": 4,
+      "featured": false,
+      "tags": ["Solar", "Niger", "Sustainability"],
+      "readTime": "2 min read"
+    },
+    {
+      "id": 8,
+      "title": "Mobile Health Clinics Reach Remote Communities",
+      "excerpt": "ANSAR's mobile health clinics have delivered essential medical care to over 5,000 people in hard-to-reach areas of Pakistan.",
+      "content": "The mobile clinics are staffed by doctors and nurses who travel to remote villages. Services include vaccinations, maternal care, and health education. Community members say the clinics have saved lives and reduced the need for long, costly journeys to city hospitals.",
+      "image": "/images/sample/campaigns/mobile-health.jpg",
+      "category": "Healthcare",
+      "author": "Dr. Saeed Khan",
+      "date": "2023-08-20",
+      "comments": 6,
+      "featured": false,
+      "tags": ["Health", "Pakistan", "Mobile Clinic"],
+      "readTime": "3 min read"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Aisha Rahman",
+      "role": "Program Beneficiary",
+      "location": "Gaza, Palestine",
+      "quote": "The medical supplies provided by Ansar saved my daughter's life during the crisis. They were there when no one else was.",
+      "image": "/images/testimonials/beneficiary-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mohammed Al-Farsi",
+      "role": "Volunteer",
+      "location": "Cairo, Egypt",
+      "quote": "Volunteering with Ansar has been the most rewarding experience of my life. I've seen firsthand how donations transform communities.",
+      "image": "/images/testimonials/volunteer-1.jpg"
+    }
+  ],
+  "partners": [
+    {
+      "id": 1,
+      "name": "Global Aid Foundation",
+      "logo": "/images/logos/partner-1.png",
+      "website": "https://globalaid.org"
+    },
+    {
+      "id": 2,
+      "name": "Relief International",
+      "logo": "/images/logos/partner-2.png",
+      "website": "https://reliefint.org"
+    }
+  ]
+}

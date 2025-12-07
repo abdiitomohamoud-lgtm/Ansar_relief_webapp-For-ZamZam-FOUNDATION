@@ -1,0 +1,349 @@
+{
+  "hero": {
+    "image": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?auto=format&fit=crop&w=1500&q=80",
+    "title": "Our Initiatives & Programs",
+    "subtitle": "Transforming Lives Together",
+    "description": "Join us in making a lasting impact through sustainable development and community empowerment projects across the globe.",
+    "buttons": [
+      { "label": "Support Our Work", "link": "/donate" },
+      { "label": "Become a Volunteer", "link": "/volunteer" }
+    ],
+    "stats": [
+      { "label": "Lives Changed", "value": "1M+" },
+      { "label": "Countries", "value": "50+" },
+      { "label": "Years of Service", "value": "25+" }
+    ]
+  },
+  "categories": [
+    { "id": "all", "name": "All Programs", "iconName": "FaHandHoldingHeart" },
+    { "id": "water", "name": "Water Projects", "iconName": "FaWater" },
+    { "id": "education", "name": "Education", "iconName": "FaGraduationCap" },
+    { "id": "healthcare", "name": "Healthcare", "iconName": "FaHospital" },
+    { "id": "community", "name": "Community", "iconName": "FaUsers" },
+    { "id": "mosque", "name": "Mosque", "iconName": "FaMosque" },
+    { "id": "food", "name": "Food Aid", "iconName": "FaUtensils" },
+    { "id": "library", "name": "Library", "iconName": "FaBook" },
+    { "id": "orphan", "name": "Orphan Care", "iconName": "FaChild" },
+    { "id": "partnership", "name": "Partnerships", "iconName": "FaHandshake" }
+  ],
+  "donationCategories": [
+    { "id": "education", "name": "Educational Support" },
+    { "id": "health", "name": "Health Support" },
+    { "id": "orphans", "name": "Orphans' Needs" },
+    { "id": "water", "name": "Water and Wells" },
+    { "id": "housing", "name": "Housing Support" },
+    { "id": "income", "name": "Economic Empowerment" },
+    { "id": "relief", "name": "Relief Support" },
+    { "id": "sadaqa", "name": "Sadaqa" }
+  ],
+  "initiatives": [
+    {
+      "id": 1,
+      "title": "Clean Water Initiative",
+      "category": "water",
+      "description": "Providing access to clean and safe drinking water in underserved communities.",
+      "image": "https://images.unsplash.com/photo-1570975640138-0f48894ecbdc?auto=format&fit=crop&w=800&q=80",
+      "impact": "50,000+ people served",
+      "location": "Multiple regions",
+      "status": "Active",
+      "progress": 75,
+      "startDate": "2023"
+    },
+    {
+      "id": 2,
+      "title": "Education Support Program",
+      "category": "education",
+      "description": "Supporting quality education through scholarships and infrastructure development.",
+      "image": "https://images.unsplash.com/photo-1507537548758-9b48aec7b335?auto=format&fit=crop&w=800&q=80",
+      "impact": "1,000+ students supported",
+      "location": "Urban and rural areas",
+      "status": "Active",
+      "progress": 80,
+      "startDate": "2022"
+    },
+    {
+      "id": 3,
+      "title": "Healthcare Access Program",
+      "category": "healthcare",
+      "description": "Improving healthcare access through mobile clinics and medical support.",
+      "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&q=80",
+      "impact": "25,000+ patients treated",
+      "location": "Rural communities",
+      "status": "Active",
+      "progress": 60,
+      "startDate": "2021"
+    },
+    {
+      "id": 4,
+      "title": "Community Development",
+      "category": "community",
+      "description": "Empowering communities through sustainable development projects.",
+      "image": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=800&q=80",
+      "impact": "100+ communities transformed",
+      "location": "Nationwide",
+      "status": "Active",
+      "progress": 90,
+      "startDate": "2020"
+    },
+    {
+      "id": 5,
+      "title": "Mosque Construction",
+      "category": "mosque",
+      "description": "Building and maintaining mosques as centers of community life.",
+      "image": "https://images.unsplash.com/photo-1573108724029-4c46571d6490?auto=format&fit=crop&w=800&q=80",
+      "impact": "20+ mosques built",
+      "location": "Various locations",
+      "status": "Active",
+      "progress": 50,
+      "startDate": "2023"
+    },
+    {
+      "id": 6,
+      "title": "Food Security Program",
+      "category": "food",
+      "description": "Ensuring food security through distribution and sustainable agriculture.",
+      "image": "https://images.unsplash.com/photo-1594834749740-74b3f6764be4?auto=format&fit=crop&w=800&q=80",
+      "impact": "500,000+ meals provided",
+      "location": "Nationwide",
+      "status": "Active",
+      "progress": 85,
+      "startDate": "2024"
+    },
+    {
+      "id": 7,
+      "title": "Community Libraries",
+      "category": "library",
+      "description": "Establishing libraries to promote literacy and lifelong learning.",
+      "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=800&q=80",
+      "impact": "15+ libraries established",
+      "location": "Urban centers",
+      "status": "Active",
+      "progress": 70,
+      "startDate": "2022"
+    },
+    {
+      "id": 8,
+      "title": "Orphan Support Program",
+      "category": "orphan",
+      "description": "Providing comprehensive support for orphaned children.",
+      "image": "https://images.unsplash.com/photo-1537655780520-1e392ead81f2?auto=format&fit=crop&w=800&q=80",
+      "impact": "1,000+ orphans supported",
+      "location": "Nationwide",
+      "status": "Active",
+      "progress": 95,
+      "startDate": "2023"
+    },
+    {
+      "id": 9,
+      "title": "Strategic Partnerships",
+      "category": "partnership",
+      "description": "Building partnerships for sustainable development impact.",
+      "image": "https://images.unsplash.com/photo-1556484687-30636164638b?auto=format&fit=crop&w=800&q=80",
+      "impact": "50+ partnerships formed",
+      "location": "Global",
+      "status": "Active",
+      "progress": 65,
+      "startDate": "2021"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Ahmed Hassan",
+      "role": "Water Project Beneficiary",
+      "quote": "Thanks to the clean water project, our village now has access to safe drinking water. This has transformed our lives.",
+      "image": "https://picsum.photos/150/150?random=1"
+    },
+    {
+      "id": 2,
+      "name": "Fatima Ali",
+      "role": "Education Program Graduate",
+      "quote": "The scholarship program helped me complete my education. I am now able to support my family and give back to my community.",
+      "image": "https://picsum.photos/150/150?random=2"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Yusuf Khan",
+      "role": "Healthcare Program Partner",
+      "quote": "The mobile clinic initiative has been instrumental in providing healthcare to remote communities. The impact is truly remarkable.",
+      "image": "https://picsum.photos/150/150?random=3"
+    }
+  ],
+  "impactStats": [
+    { "number": "1M+", "label": "People Impacted" },
+    { "number": "100+", "label": "Projects Completed" },
+    { "number": "50+", "label": "Communities Served" },
+    { "number": "25+", "label": "Years of Service" }
+  ],
+  "whatWeDo": [
+    {
+      "title": "Emergency Relief",
+      "description": "Providing immediate assistance to communities affected by conflicts and natural disasters.",
+      "iconName": "FaHandHoldingHeart",
+      "stats": "240,000+ people received emergency aid last year",
+      "gradient": "from-rose-500 to-red-600",
+      "bgPattern": "radial-gradient(circle, rgba(254, 202, 202, 0.2) 2px, transparent 2.5px)",
+      "bgSize": "20px 20px"
+    },
+    {
+      "title": "Sustainable Development",
+      "description": "Creating long-term solutions that empower communities to become self-sufficient.",
+      "iconName": "FaUsers",
+      "stats": "85+ sustainable projects implemented globally",
+      "gradient": "from-emerald-500 to-green-600",
+      "bgPattern": "repeating-linear-gradient(45deg, rgba(209, 250, 229, 0.2), rgba(209, 250, 229, 0.2) 5px, transparent 5px, transparent 12px)",
+      "bgSize": "16px 16px"
+    },
+    {
+      "title": "Child Welfare",
+      "description": "Supporting orphans and vulnerable children with education, healthcare, and protection.",
+      "iconName": "FaChild",
+      "stats": "10,000+ children sponsored through our programs",
+      "gradient": "from-amber-500 to-orange-600",
+      "bgPattern": "radial-gradient(circle, rgba(251, 213, 155, 0.2) 2px, transparent 2.5px)",
+      "bgSize": "18px 18px"
+    }
+  ],
+  "valuesAndPrinciples": [
+    "Transparency",
+    "Accountability",
+    "Sustainability",
+    "Empowerment",
+    "Dignity",
+    "Compassion"
+  ],
+  "campaigns": [
+    {
+      "title": "Empowering Poor Families",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=800&q=80",
+      "ref": "LNO: 2024",
+      "description": "Help families become self-sufficient through skills training and income generation projects.",
+      "percentFunded": 70
+    },
+    {
+      "title": "Giving Lives On",
+      "image": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=800&q=80",
+      "ref": "LNO: 2025",
+      "description": "Provide ongoing support to families affected by conflicts and natural disasters.",
+      "percentFunded": 70
+    },
+    {
+      "title": "Embrace the Blessings of Giving",
+      "image": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?auto=format&fit=crop&w=800&q=80",
+      "ref": "LNO: 2025",
+      "description": "A chance to multiply your rewards by supporting our humanitarian initiatives.",
+      "percentFunded": 70
+    },
+    {
+      "title": "Rebuilding Hope",
+      "image": "https://images.unsplash.com/photo-1618477202872-8e3138190308?auto=format&fit=crop&w=800&q=80",
+      "ref": "LNO: 2024",
+      "description": "Help rebuild communities devastated by natural disasters and conflict.",
+      "percentFunded": 70
+    }
+  ],
+  "donationFields": [
+    { "name": "Mosques", "iconName": "FaMosque", "description": "Support the construction and renovation of mosques", "projects": 24, "impact": "50+ communities", "gradient": "from-primary-500 to-blue-600" },
+    { "name": "Housing the Poor", "iconName": "FaUsers", "description": "Provide shelters and homes for disadvantaged families", "projects": 18, "impact": "300+ families", "gradient": "from-emerald-500 to-teal-600" },
+    { "name": "Water", "iconName": "FaWater", "description": "Clean water solutions for communities in need", "projects": 30, "impact": "100K+ people", "gradient": "from-blue-500 to-cyan-600" },
+    { "name": "Health", "iconName": "FaHospital", "description": "Medical care and services for underserved areas", "projects": 22, "impact": "75K+ patients", "gradient": "from-rose-500 to-red-600" },
+    { "name": "Education", "iconName": "FaGraduationCap", "description": "Learning opportunities and educational facilities", "projects": 28, "impact": "15K+ students", "gradient": "from-amber-500 to-orange-600" },
+    { "name": "Income Generation", "iconName": "FaHandshake", "description": "Sustainable livelihood projects for communities", "projects": 15, "impact": "5K+ households", "gradient": "from-violet-500 to-purple-600" },
+    { "name": "Relief", "iconName": "FaHandHoldingHeart", "description": "Emergency support for crisis-affected areas", "projects": 35, "impact": "1M+ people", "gradient": "from-pink-500 to-rose-600" },
+    { "name": "Food Security", "iconName": "FaUtensils", "description": "Food distribution and sustainable agriculture", "projects": 20, "impact": "500K+ meals", "gradient": "from-lime-500 to-green-600" }
+  ],
+  "dailySadaqa": {
+    "title": "Daily Sadaqa Program",
+    "description": "A special donation program that allows enrolled donors to automatically donate an agreed amount every day, to support a need every day, and enrich your days with a daily Sadaqah.",
+    "features": [
+      "Automatically donate an amount of your choice daily",
+      "Support various charitable causes",
+      "Earn continuous rewards through consistent giving"
+    ],
+    "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=800&q=80",
+    "stats": {
+      "currency": "QAR",
+      "amount": "500,000+",
+      "label": "Daily donations collected"
+    }
+  },
+  "memberships": [
+    { "label": "Consultative Status", "value": "Since 1996" },
+    { "label": "Associated Organization", "value": "Since 2019" },
+    { "label": "Member", "value": "Since 2017" },
+    { "label": "Observer Member", "value": "Since 2006" }
+  ],
+  "uiText": {
+    "heroBadge": "Transforming Lives Together",
+    "quickDonation": {
+      "heading": "Make a Donation Today",
+      "description": "Your contribution can make a real difference in the lives of those in need. Choose how you want to help.",
+      "donateNow": "Donate Now",
+      "calculateZakat": "Calculate Zakat",
+      "donationAmounts": [50, 100, 300, 500],
+      "singleDonation": "Single Donation",
+      "periodicDonation": "Periodic Donation"
+    },
+    "impactStatsSection": {
+      "title": "Making a Difference Together",
+      "subtitle": "Through the generous support of our donors, we've been able to make a significant difference in communities around the world.",
+      "tag": "Our Global Impact",
+      "viewReport": "View our annual impact report"
+    },
+    "whatWeDoSection": {
+      "title": "What We Do",
+      "subtitle": "We work with local communities to implement sustainable solutions that address the root causes of poverty and vulnerability.",
+      "tag": "Our Approach",
+      "showDivider": true
+    },
+    "valuesPrinciplesSection": {
+      "heading": "Our Values & Principles"
+    },
+    "featuredInitiativesSection": {
+      "title": "Current Initiatives",
+      "subtitle": "Explore our range of humanitarian initiatives designed to create lasting positive change.",
+      "tag": "Our Programs"
+    },
+    "testimonialsSection": {
+      "title": "Transforming Lives",
+      "subtitle": "Hear directly from those whose lives have been transformed through our initiatives.",
+      "tag": "Stories of Impact",
+      "viewMore": "View more success stories"
+    },
+    "campaignsSection": {
+      "title": "Join Our Active Campaigns",
+      "subtitle": "Support our ongoing campaigns and help us make an immediate difference in communities that need it most.",
+      "tag": "Current Campaigns",
+      "viewAll": "View All Campaigns"
+    },
+    "donationFieldsSection": {
+      "title": "Choose Your Impact Area",
+      "subtitle": "We help you start your own charitable project. Where or what you decide to support is totally up to you.",
+      "tag": "Donation Fields",
+      "size": "large",
+      "browseAll": "Browse All Projects"
+    },
+    "ctaSection": {
+      "title": "Join Us in Making a Difference",
+      "description": "Your support can transform lives and communities. Together, we can create lasting positive change.",
+      "donateNow": "Donate Now",
+      "volunteer": "Volunteer",
+      "contactUs": "Contact Us"
+    },
+    "membershipsSection": {
+      "heading": "Memberships & Accreditations"
+    },
+    "initiativeCard": {
+      "progressLabel": "Progress",
+      "learnMore": "Learn More",
+      "started": "Started"
+    },
+    "misc": {
+      "noInitiatives": {
+        "heading": "No initiatives found",
+        "description": "We couldn't find any initiatives in this category. Please try another category or check back later.",
+        "viewAll": "View all initiatives"
+      }
+    }
+  }
+}

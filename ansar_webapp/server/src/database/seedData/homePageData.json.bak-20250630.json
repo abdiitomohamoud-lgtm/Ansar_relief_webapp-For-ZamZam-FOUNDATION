@@ -1,0 +1,245 @@
+{
+  "featuredCampaigns": [
+    {
+      "id": 1,
+      "title": "Clean Water Initiative",
+      "description": "Provide clean water to communities in need",
+      "image": "/images/campaigns/water-project.jpg",
+      "raised": 15000,
+      "goal": 25000,
+      "category": "Water",
+      "daysLeft": 15,
+      "licenseNumber": "2024"
+    },
+    {
+      "id": 2,
+      "title": "Education for All",
+      "description": "Support education for underprivileged children",
+      "image": "/images/campaigns/education.jpg",
+      "raised": 8500,
+      "goal": 20000,
+      "category": "Education",
+      "daysLeft": 30,
+      "licenseNumber": "2024"
+    },
+    {
+      "id": 3,
+      "title": "Emergency Relief: Gaza",
+      "description": "Provide urgent humanitarian aid to families in Gaza",
+      "image": "/images/campaigns/emergency.jpg",
+      "raised": 45000,
+      "goal": 100000,
+      "category": "Relief",
+      "daysLeft": 7,
+      "licenseNumber": "2024"
+    },
+    {
+      "id": 4,
+      "title": "Orphan Sponsorship Program",
+      "description": "Help provide care and education for orphaned children",
+      "image": "/images/campaigns/orphans.jpg",
+      "raised": 12000,
+      "goal": 50000,
+      "category": "Sponsorship",
+      "daysLeft": 0,
+      "licenseNumber": "2025"
+    }
+  ],
+  "impactStats": {
+    "beneficiaries": 250000,
+    "countries": 35,
+    "projects": 1200,
+    "volunteers": 5000
+  },
+  "urgentCases": [
+    {
+      "id": 101,
+      "title": "Medical Treatment for Ahmed",
+      "description": "Ahmed needs urgent surgery to treat his heart condition",
+      "amount": 5000,
+      "remaining": 2000,
+      "image": "/images/urgent/medical.jpg"
+    },
+    {
+      "id": 102,
+      "title": "Support for Widow with 4 Children",
+      "description": "Help a widow provide for her young children after losing her husband",
+      "amount": 3000,
+      "remaining": 1200,
+      "image": "/images/urgent/family.jpg"
+    }
+  ],
+  "currentCampaigns": [
+    {
+      "id": 201,
+      "title": "Empowering Poor Families",
+      "description": "Help families rise out of poverty through sustainable support",
+      "image": "/images/campaigns/family-support.jpg",
+      "raised": 24000,
+      "goal": 50000,
+      "category": "Family Support",
+      "daysLeft": 25,
+      "licenseNumber": "2024",
+      "isUrgent": false
+    },
+    {
+      "id": 202,
+      "title": "Giving Lives On",
+      "description": "Ongoing support for communities affected by natural disasters",
+      "image": "/images/campaigns/disaster-relief.jpg",
+      "raised": 35600,
+      "goal": 60000,
+      "category": "Disaster Relief",
+      "daysLeft": 12,
+      "licenseNumber": "2025",
+      "isUrgent": false
+    },
+    {
+      "id": 203,
+      "title": "Embrace the Blessings of Giving",
+      "description": "A chance to multiply your rewards through charitable giving",
+      "image": "/images/campaigns/ramadan.jpg",
+      "raised": 28700,
+      "goal": 40000,
+      "category": "Ramadan",
+      "daysLeft": 8,
+      "licenseNumber": "2025",
+      "isUrgent": false
+    },
+    {
+      "id": 204,
+      "title": "Labbeh Gaza: Together, We Restore Hope",
+      "description": "Urgent humanitarian assistance for families in Gaza",
+      "image": "/images/campaigns/gaza-relief.jpg",
+      "raised": 78000,
+      "goal": 150000,
+      "category": "Emergency Relief",
+      "daysLeft": 5,
+      "licenseNumber": "2024",
+      "isUrgent": true
+    }
+  ],
+  "programs": [
+    {
+      "title": "Sadaqah",
+      "icon": "FaHandHoldingHeart",
+      "link": "/sadaqah",
+      "color": "from-orange-500 to-red-500",
+      "bgLight": "bg-orange-50",
+      "border": "border-orange-100",
+      "textHover": "group-hover:text-orange-600",
+      "shadow": "group-hover:shadow-orange-200/50",
+      "description": "Support those in need"
+    },
+    {
+      "title": "Zakat",
+      "icon": "FaMoneyBillWave",
+      "link": "/sadaqah/zakat-calculator",
+      "color": "from-emerald-500 to-teal-600",
+      "bgLight": "bg-emerald-50",
+      "border": "border-emerald-100",
+      "textHover": "group-hover:text-emerald-600",
+      "shadow": "group-hover:shadow-emerald-200/50",
+      "description": "Fulfill your obligation"
+    },
+    {
+      "title": "Sponsorships",
+      "icon": "FaUsers",
+      "link": "/sponsorship",
+      "color": "from-blue-500 to-indigo-600",
+      "bgLight": "bg-blue-50",
+      "border": "border-blue-100",
+      "textHover": "group-hover:text-blue-600",
+      "shadow": "group-hover:shadow-blue-200/50",
+      "description": "Change a life today"
+    },
+    {
+      "title": "Water",
+      "icon": "FaWater",
+      "link": "/projects/categories/water",
+      "color": "from-cyan-500 to-blue-600",
+      "bgLight": "bg-cyan-50",
+      "border": "border-cyan-100",
+      "textHover": "group-hover:text-cyan-600",
+      "shadow": "group-hover:shadow-cyan-200/50",
+      "description": "Provide clean water"
+    },
+    {
+      "title": "Education",
+      "icon": "FaGraduationCap",
+      "link": "/projects/categories/education",
+      "color": "from-amber-500 to-orange-600",
+      "bgLight": "bg-amber-50",
+      "border": "border-amber-100",
+      "textHover": "group-hover:text-amber-600",
+      "shadow": "group-hover:shadow-amber-200/50",
+      "description": "Build a brighter future"
+    },
+    {
+      "title": "Food Aid",
+      "icon": "FaUtensils",
+      "link": "/projects/categories/relief",
+      "color": "from-purple-500 to-indigo-600",
+      "bgLight": "bg-purple-50",
+      "border": "border-purple-100",
+      "textHover": "group-hover:text-purple-600",
+      "shadow": "group-hover:shadow-purple-200/50",
+      "description": "Fight hunger together"
+    }
+  ],
+  "sadaqahTypes": [
+    {
+      "title": "General Sadaqah",
+      "description": "Your donation will be used where needed most",
+      "icon": "FaHeart",
+      "link": "/sadaqah"
+    },
+    {
+      "title": "Sadaqah Jariyah",
+      "description": "Ongoing charity that continues to benefit others",
+      "icon": "FaWater",
+      "link": "/sadaqah"
+    },
+    {
+      "title": "Friday Sadaqah",
+      "description": "Special virtue in giving charity on Fridays",
+      "icon": "FaMosque",
+      "link": "/sadaqah"
+    },
+    {
+      "title": "Food Sadaqah",
+      "description": "Provide meals to those who are hungry",
+      "icon": "FaBreadSlice",
+      "link": "/sadaqah"
+    }
+  ],
+  "sponsorshipPrograms": [
+    {
+      "title": "Orphan Sponsorship",
+      "description": "Provide care, education, and support for orphaned children",
+      "image": "/images/sponsorships/orphan.jpg",
+      "amount": "$50/month",
+      "link": "/sponsorship/orphan",
+      "icon": "FaUsers",
+      "benefits": ["Food & Clothing", "Education", "Healthcare", "Emotional Support"]
+    },
+    {
+      "title": "Family Sponsorship",
+      "description": "Help families in need with essential living expenses",
+      "image": "/images/sponsorships/family.jpg",
+      "amount": "$100/month",
+      "link": "/sponsorship/family",
+      "icon": "FaHome",
+      "benefits": ["Food Assistance", "Housing Support", "Utility Bills", "Education"]
+    },
+    {
+      "title": "Student Sponsorship",
+      "description": "Support a student's education and help shape their future",
+      "image": "/images/sponsorships/student.jpg",
+      "amount": "$35/month",
+      "link": "/sponsorship/student",
+      "icon": "FaGraduationCap",
+      "benefits": ["Tuition Fees", "School Supplies", "Transportation", "Mentorship"]
+    }
+  ]
+}

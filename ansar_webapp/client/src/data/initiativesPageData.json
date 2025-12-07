@@ -1,0 +1,68 @@
+{
+  "hero": {
+    "title": "Our Initiatives",
+    "description": "Discover the impactful programs and initiatives that are transforming communities around the world."
+  },
+  "initiatives": [
+    {
+      "id": 1,
+      "title": "Clean Water Initiative",
+      "description": "Providing clean and safe drinking water to communities in need around the world.",
+      "icon": "FaWater",
+      "color": "blue"
+    },
+    {
+      "id": 2,
+      "title": "Education for All",
+      "description": "Ensuring children have access to quality education regardless of their economic background.",
+      "icon": "FaBook",
+      "color": "green"
+    },
+    {
+      "id": 3,
+      "title": "Housing Support",
+      "description": "Building and repairing homes for families affected by natural disasters.",
+      "icon": "FaHome",
+      "color": "purple"
+    },
+    {
+      "id": 4,
+      "title": "Healthcare Access",
+      "description": "Providing medical care and health services to underserved communities.",
+      "icon": "FaHeart",
+      "color": "red"
+    },
+    {
+      "id": 5,
+      "title": "Mosque Construction",
+      "description": "Building places of worship and community centers for Muslim communities.",
+      "icon": "FaMosque",
+      "color": "yellow"
+    },
+    {
+      "id": 6,
+      "title": "Community Empowerment",
+      "description": "Supporting local initiatives that empower communities to become self-sufficient.",
+      "icon": "FaHandsHelping",
+      "color": "indigo"
+    }
+  ],
+  "impact": {
+    "title": "Making a Lasting Impact",
+    "description": "Our initiatives are designed to create sustainable change in communities. We focus on long-term solutions that empower people to improve their own lives.",
+    "features": [
+      "Community-centered approach",
+      "Transparency in all operations",
+      "Measurable impact metrics"
+    ],
+    "cta": "View Our Impact Report"
+  },
+  "cta": {
+    "title": "Support Our Initiatives",
+    "description": "Your support helps us continue and expand our vital work in communities around the world.",
+    "buttons": [
+      { "text": "Donate Now", "type": "primary" },
+      { "text": "Volunteer With Us", "type": "secondary" }
+    ]
+  }
+}

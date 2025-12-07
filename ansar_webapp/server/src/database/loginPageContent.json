@@ -1,0 +1,107 @@
+{
+  "heading": "Welcome Back",
+  "subheading": "Sign in to continue your journey of giving",
+  "leftPanel": {
+    "orgLogo": "/images/logos/logo.png",
+    "orgName": "Ansar Relief",
+    "orgTagline": "International Humanitarian Organization",
+    "mainTitle": "Welcome to a World of Giving",
+    "mainDescription": "Your generosity helps us provide essential aid and services to those in need. Sign in to continue your journey of making a difference in the world.",
+    "whyChoose": {
+      "title": "Why Choose Ansar Relief",
+      "reasons": [
+        {
+          "icon": "FaLeaf",
+          "title": "Transparent Donation Tracking",
+          "desc": "Follow your contributions and see their direct impact"
+        },
+        {
+          "icon": "FaGlobe",
+          "title": "Global Reach, Local Impact",
+          "desc": "Supporting communities across 40+ countries worldwide"
+        },
+        {
+          "icon": "FaShieldAlt",
+          "title": "Secure Donation Platform",
+          "desc": "100% secure and certified payment processing"
+        }
+      ]
+    },
+    "stats": [
+      { "icon": "FaHeart", "label": "Lives Impacted", "value": "10M+" },
+      { "icon": "FaGlobe", "label": "Countries", "value": "40+" },
+      { "icon": "FaUser", "label": "Donors", "value": "100K+" }
+    ],
+    "testimonial": {
+      "quote": "Ansar Relief has allowed me to make a real difference in the lives of those in need. Their transparent approach gives me confidence that my donations reach those who need it most.",
+      "author": "Sarah Mitchell",
+      "meta": "Monthly Donor since 2019"
+    }
+  },
+  "tabs": [
+    { "key": "email", "label": "Sign In", "icon": "FaEnvelope" },
+    { "key": "mobile", "label": "Mobile", "icon": "FaMobileAlt" },
+    { "key": "signup", "label": "Sign Up", "icon": "FaUserPlus" }
+  ],
+  "emailForm": {
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "your.email@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "••••••••",
+    "rememberMe": "Remember me for 30 days",
+    "forgotPassword": "Forgot your password?",
+    "signInButton": "Sign in",
+    "dontHaveAccountText": "Don't have an account? Sign up now"
+  },
+  "mobileForm": {
+    "countryCodeLabel": "Country Code",
+    "mobileLabel": "Mobile Number",
+    "mobilePlaceholder": "Mobile number",
+    "sendCodeButton": "Send Verification Code",
+    "verifyButton": "Verify and Sign in",
+    "resendCode": "Resend Code",
+    "verificationLabel": "Verification Code",
+    "verificationPlaceholder": "Enter 6-digit code"
+  },
+  "signupForm": {
+    "nameLabel": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "Enter your email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Create a password",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "agreeTerms": "I agree to the Terms of Service and Privacy Policy",
+    "signUpButton": "Create Account",
+    "alreadyHaveAccount": "Already have an account? Sign in"
+  },
+  "helpText": {
+    "title": "Need Help Logging In?",
+    "items": [
+      "Make sure your email address is entered correctly",
+      "Passwords are case-sensitive",
+      "If you've forgotten your password, click the 'Forgot password?' link",
+      "For mobile login, ensure you've entered the correct country code",
+      "If you continue to experience issues, please contact our support team"
+    ]
+  },
+  "socialLogins": [
+    { "provider": "Google", "icon": "FaGoogle" },
+    { "provider": "Facebook", "icon": "FaFacebook" },
+    { "provider": "Apple", "icon": "FaApple" }
+  ],
+  "securityFeatures": {
+    "title": "Secure Login & Donation",
+    "desc": "Your personal information is protected with industry-leading security",
+    "features": [
+      "256-bit encryption",
+      "Secure SSL connection",
+      "We never store your payment details on our servers"
+    ]
+  },
+  "footer": {
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy"
+  }
+}

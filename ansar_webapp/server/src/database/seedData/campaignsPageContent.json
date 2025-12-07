@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "headline": "Campaigns & Projects",
+    "subheading": "Support our current campaigns and help create lasting change for communities in need around the world.",
+    "badge": "Make a difference today",
+    "ctaDonate": "Donate Now",
+    "ctaVolunteer": "Volunteer",
+    "backgroundImage": "/images/campaigns/hero/campaign-hero.jpg"
+  },
+  "stats": [
+    { "value": "35+", "label": "Countries Served" },
+    { "value": "120+", "label": "Active Projects" },
+    { "value": "10K+", "label": "Donors Worldwide" },
+    { "value": "$5M+", "label": "Funds Distributed" }
+  ],
+  "filters": {
+    "heading": "Find a Campaign",
+    "searchPlaceholder": "Search campaigns",
+    "filterButton": "Filter",
+    "categories": [
+      "all",
+      "Emergency Relief",
+      "Water",
+      "Orphans",
+      "Seasonal",
+      "Education",
+      "Masjid",
+      "Food"
+    ],
+    "allLabel": "All Campaigns"
+  },
+  "noResults": {
+    "message": "No campaigns found matching your criteria",
+    "clearFilters": "Clear filters"
+  },
+  "ctaBottom": {
+    "heading": "Can't find what you're looking for?",
+    "subtext": "We have many more initiatives and ways to help. Contact us to discuss how you can make an impact.",
+    "contact": "Contact Us",
+    "initiatives": "View All Initiatives"
+  }
+}

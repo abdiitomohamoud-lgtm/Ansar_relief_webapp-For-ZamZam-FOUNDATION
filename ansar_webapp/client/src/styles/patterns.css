@@ -1,0 +1,363 @@
+/* Pattern Styles */
+.pattern-dots {
+  background-image: radial-gradient(circle at 1px 1px, currentColor 1px, transparent 0);
+  background-size: 16px 16px;
+}
+
+.pattern-diagonal {
+  background-image: linear-gradient(45deg, transparent 48%, currentColor 49%, currentColor 51%, transparent 52%);
+  background-size: 24px 24px;
+}
+
+.pattern-grid {
+  background-image: repeating-linear-gradient(45deg, currentColor 0, currentColor 1px, transparent 1px, transparent 12px);
+}
+
+/* Islamic Geometric Patterns */
+.pattern-islamic-star {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0l15 15-15 15 15 15-15 15L0 45l15-15L0 15 30 0zm0 10.607L12.857 27.75 30 44.893 47.143 27.75 30 10.607z' fill='%23ffffff' fill-opacity='0.1'/%3E%3C/svg%3E");
+}
+
+.pattern-islamic-weave {
+  background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0 4c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8zm0 32c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm24-8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' fill='%23ffffff' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.pattern-mosque {
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 0c27.614 0 50 22.386 50 50s-22.386 50-50 50S0 77.614 0 50 22.386 0 50 0zm0 10c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40z' fill='%23ffffff' fill-opacity='0.1'/%3E%3C/svg%3E");
+}
+
+.pattern-arabesque {
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Texture Overlays */
+.texture-paper {
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.05'%3E%3Cpath d='M0 0h1v1H0zM10 10h1v1h-1zM20 20h1v1h-1zM30 30h1v1h-1zM40 40h1v1h-1zM50 50h1v1h-1z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.texture-grain {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  opacity: 0.05;
+}
+
+/* Decorative Elements */
+.border-islamic {
+  border-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h100v100H0z' fill='none' stroke='%23000' stroke-width='2'/%3E%3C/svg%3E") 1;
+}
+
+/* Animation Classes */
+.hover-grow {
+  transition: transform 0.3s ease;
+}
+
+.hover-grow:hover {
+  transform: scale(1.05);
+}
+
+.hover-glow {
+  transition: box-shadow 0.3s ease;
+}
+
+.hover-glow:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Custom Gradients */
+.gradient-islamic {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
+
+.gradient-overlay {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+/* Utility Classes */
+.pattern-opacity-10 {
+  opacity: 0.1;
+}
+
+.pattern-opacity-20 {
+  opacity: 0.2;
+}
+
+.pattern-rotate-45 {
+  transform: rotate(45deg);
+}
+
+.pattern-scale-75 {
+  transform: scale(0.75);
+}
+
+.bg-noise {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.25' fill='white'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 200px 200px;
+}
+
+/* Add subtle animation to patterns */
+@keyframes patternFloat {
+  0% { background-position: 0 0; }
+  100% { background-position: 100px 100px; }
+}
+
+.pattern-animate {
+  animation: patternFloat 60s linear infinite;
+}
+
+/* Islamic Pattern */
+.pattern-islamic {
+  position: relative;
+}
+
+.pattern-islamic::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40 0L50 20L80 20L60 40L70 70L40 50L10 70L20 40L0 20L30 20L40 0Z' fill='white' fill-opacity='0.1'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 80px 80px;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+/* Geometric Pattern */
+.pattern-geometric {
+  position: relative;
+}
+
+.pattern-geometric::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.05' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 40px 40px;
+  opacity: 0.05;
+  pointer-events: none;
+}
+
+/* Dots Pattern */
+.pattern-dots {
+  position: relative;
+}
+
+.pattern-dots::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='10' cy='10' r='2' fill='white' fill-opacity='0.2'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 20px 20px;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+/* Hexagon Pattern */
+.pattern-hexagon {
+  position: relative;
+}
+
+.pattern-hexagon::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='40' viewBox='0 0 24 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 0l12 20-12 20L0 20 12 0z' fill='white' fill-opacity='0.1'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 24px 40px;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+/* Base Pattern Classes */
+.pattern-base {
+  position: relative;
+  overflow: hidden;
+}
+
+.pattern-base::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-repeat: repeat;
+  pointer-events: none;
+}
+
+/* Texture Overlay */
+.texture-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05' fill='white'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 200px 200px;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+/* Animations */
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Pattern Animation */
+.pattern-animate {
+  animation: patternFloat 60s linear infinite;
+}
+
+@keyframes patternFloat {
+  0% { background-position: 0 0; }
+  100% { background-position: 100px 100px; }
+}
+
+/* Utility Classes */
+.pattern-opacity-5 { opacity: 0.05; }
+.pattern-opacity-10 { opacity: 0.1; }
+.pattern-opacity-20 { opacity: 0.2; }
+.pattern-rotate-45 { transform: rotate(45deg); }
+.pattern-scale-75 { transform: scale(0.75); }
+
+/* Islamic Star Pattern */
+.pattern-islamic-star {
+  position: relative;
+}
+
+.pattern-islamic-star::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0l15 15-15 15 15 15-15 15L0 45l15-15L0 15 30 0zm0 10.607L12.857 27.75 30 44.893 47.143 27.75 30 10.607z' fill='%23000000' fill-opacity='0.05'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 60px 60px;
+  opacity: 0.05;
+  pointer-events: none;
+}
+
+/* Arabesque Pattern */
+.pattern-arabesque {
+  position: relative;
+}
+
+.pattern-arabesque::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.05'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 80px 80px;
+  opacity: 0.05;
+  pointer-events: none;
+}
+
+/* Mosque Pattern */
+.pattern-mosque {
+  position: relative;
+}
+
+.pattern-mosque::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 0c27.614 0 50 22.386 50 50s-22.386 50-50 50S0 77.614 0 50 22.386 0 50 0zm0 10c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40z' fill='%23000000' fill-opacity='0.05'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 100px 100px;
+  opacity: 0.05;
+  pointer-events: none;
+}
+
+/* Texture Grain */
+.texture-grain {
+  position: relative;
+}
+
+.texture-grain::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 200px 200px;
+  opacity: 0.05;
+  pointer-events: none;
+}
+
+/* Animations */
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Pattern Animation */
+.pattern-animate {
+  animation: patternFloat 60s linear infinite;
+}
+
+@keyframes patternFloat {
+  0% { background-position: 0 0; }
+  100% { background-position: 100px 100px; }
+}
+
+/* Utility Classes */
+.pattern-opacity-5 { opacity: 0.05; }
+.pattern-opacity-10 { opacity: 0.1; }
+.pattern-opacity-20 { opacity: 0.2; }
+.pattern-rotate-45 { transform: rotate(45deg); }
+.pattern-scale-75 { transform: scale(0.75); }
+
+/* Islamic Pattern Variations */
+.islamic-pattern-1 {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0l15 15-15 15 15 15-15 15L0 45l15-15L0 15 30 0zm0 10.607L12.857 27.75 30 44.893 47.143 27.75 30 10.607z' fill='%23000000' fill-opacity='0.05'/%3E%3C/svg%3E");
+}
+
+.islamic-pattern-2 {
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.05'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.islamic-pattern-3 {
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 0c27.614 0 50 22.386 50 50s-22.386 50-50 50S0 77.614 0 50 22.386 0 50 0zm0 10c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40z' fill='%23000000' fill-opacity='0.05'/%3E%3C/svg%3E");
+}
+
+.islamic-pattern-4 {
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.05' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Geometric Patterns */
+.geometric-pattern-1 {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.geometric-pattern-2 {
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.05' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Backdrop Blur */
+.backdrop-blur-sm {
+  backdrop-filter: blur(4px);
+}
+
+.backdrop-blur-md {
+  backdrop-filter: blur(8px);
+}
+
+.backdrop-blur-lg {
+  backdrop-filter: blur(12px);
+}
+
+/* Gradient Overlays */
+.gradient-overlay-light {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+}
+
+.gradient-overlay-dark {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05));
+} 

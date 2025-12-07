@@ -1,0 +1,72 @@
+[
+  {
+    "category": "water",
+    "title": "Water Projects",
+    "description": "Providing clean water to communities in need.",
+    "heroImage": "/images/programs/hero/water-sanitation-hero.jpg",
+    "impactStats": { "beneficiaries": 5000, "projects": 12, "completed": 8, "ongoing": 4 },
+    "cta": { "text": "Support Water Projects", "link": "/donate/water" },
+    "projectIds": ["project-water-1", "project-water-2", "project-water-3", "project-water-4", "project-water-5", "project-water-6"],
+    "reusableContent": { "images": ["/assets/images/projects/featured/well1.jpg", "/assets/images/projects/featured/well2.jpg"] }
+  },
+  {
+    "category": "education",
+    "title": "Education Projects",
+    "description": "Empowering youth through education initiatives.",
+    "heroImage": "/images/programs/hero/education-hero.jpg",
+    "impactStats": { "beneficiaries": 3000, "projects": 8, "completed": 5, "ongoing": 3 },
+    "cta": { "text": "Support Education", "link": "/donate/education" },
+    "projectIds": ["project-education-1", "project-education-2", "project-education-3", "project-education-4", "project-education-5", "project-education-6"],
+    "reusableContent": { "images": ["/assets/images/projects/featured/school1.jpg"] }
+  },
+  {
+    "category": "mosques",
+    "title": "Mosques Projects",
+    "description": "Building and maintaining places of worship for communities worldwide.",
+    "heroImage": "/images/programs/hero/mosques-hero.jpg",
+    "impactStats": { "beneficiaries": 10000, "projects": 20, "completed": 15, "ongoing": 5 },
+    "cta": { "text": "Support Mosques", "link": "/donate/mosques" },
+    "projectIds": ["project-mosques-1", "project-mosques-2", "project-mosques-3", "project-mosques-4", "project-mosques-5", "project-mosques-6"],
+    "reusableContent": { "images": ["/assets/images/projects/featured/mosque1.jpg"] }
+  },
+  {
+    "category": "housing",
+    "title": "Housing Projects",
+    "description": "Providing shelter and homes for families in need.",
+    "heroImage": "/images/programs/hero/social-housing-hero.jpg",
+    "impactStats": { "beneficiaries": 7000, "projects": 15, "completed": 10, "ongoing": 5 },
+    "cta": { "text": "Support Housing", "link": "/donate/housing" },
+    "projectIds": ["project-housing-1", "project-housing-2", "project-housing-3", "project-housing-4", "project-housing-5", "project-housing-6"],
+    "reusableContent": { "images": ["/assets/images/projects/featured/house1.jpg"] }
+  },
+  {
+    "category": "health",
+    "title": "Health Projects",
+    "description": "Healthcare facilities and medical services for communities.",
+    "heroImage": "/images/programs/hero/health-hero.jpg",
+    "impactStats": { "beneficiaries": 6000, "projects": 10, "completed": 7, "ongoing": 3 },
+    "cta": { "text": "Support Health", "link": "/donate/health" },
+    "projectIds": ["project-health-1", "project-health-2", "project-health-3", "project-health-4", "project-health-5", "project-health-6"],
+    "reusableContent": { "images": ["/assets/images/projects/featured/health1.jpg"] }
+  },
+  {
+    "category": "income",
+    "title": "Income Projects",
+    "description": "Sustainable livelihood and income generation projects.",
+    "heroImage": "/images/programs/hero/economic-empowerment-hero.jpg",
+    "impactStats": { "beneficiaries": 4000, "projects": 8, "completed": 6, "ongoing": 2 },
+    "cta": { "text": "Support Income", "link": "/donate/income" },
+    "projectIds": ["project-income-1", "project-income-2", "project-income-3", "project-income-4", "project-income-5", "project-income-6"],
+    "reusableContent": { "images": ["/assets/images/projects/featured/income1.jpg"] }
+  },
+  {
+    "category": "relief",
+    "title": "Relief Projects",
+    "description": "Emergency and disaster relief for affected communities.",
+    "heroImage": "/images/programs/hero/humanitarian-assistance-hero.jpg",
+    "impactStats": { "beneficiaries": 2000, "projects": 5, "completed": 3, "ongoing": 2 },
+    "cta": { "text": "Support Relief", "link": "/donate/relief" },
+    "projectIds": ["project-relief-1", "project-relief-2", "project-relief-3", "project-relief-4", "project-relief-5", "project-relief-6"],
+    "reusableContent": { "images": ["/assets/images/projects/featured/relief1.jpg"] }
+  }
+]

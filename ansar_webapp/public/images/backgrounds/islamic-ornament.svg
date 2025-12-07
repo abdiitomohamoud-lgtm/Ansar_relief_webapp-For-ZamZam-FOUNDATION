@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <g fill="none" stroke="white" stroke-width="1">
+    <circle cx="250" cy="250" r="200" />
+    <circle cx="250" cy="250" r="180" />
+    <circle cx="250" cy="250" r="160" />
+    <circle cx="250" cy="250" r="140" />
+    <circle cx="250" cy="250" r="120" />
+    <circle cx="250" cy="250" r="100" />
+    <circle cx="250" cy="250" r="80" />
+    <circle cx="250" cy="250" r="60" />
+    <circle cx="250" cy="250" r="40" />
+
+    <!-- Star pattern -->
+    <path d="M250,50 L270,230 L450,250 L270,270 L250,450 L230,270 L50,250 L230,230 Z" />
+    <path d="M250,90 L265,210 L430,250 L265,290 L250,410 L235,290 L70,250 L235,210 Z" />
+    <path d="M250,130 L260,230 L380,250 L260,270 L250,370 L240,270 L120,250 L240,230 Z" />
+  </g>
+</svg>

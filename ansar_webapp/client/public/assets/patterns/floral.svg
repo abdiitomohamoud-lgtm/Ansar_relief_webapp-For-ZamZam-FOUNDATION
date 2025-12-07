@@ -1,0 +1,28 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="floral-pattern" patternUnits="userSpaceOnUse" width="120" height="120">
+      <path fill="none" stroke="white" stroke-width="1" opacity="0.2" d="M60,60 
+               C70,50 80,50 90,60 C100,70 100,80 90,90 C80,100 70,100 60,90 C50,80 50,70 60,60 
+               M60,60
+               C50,50 50,40 60,30 C70,20 80,20 90,30 C100,40 100,50 90,60 C80,70 70,70 60,60
+               M60,60
+               C50,70 40,70 30,60 C20,50 20,40 30,30 C40,20 50,20 60,30 C70,40 70,50 60,60
+               M60,60
+               C70,70 70,80 60,90 C50,100 40,100 30,90 C20,80 20,70 30,60 C40,50 50,50 60,60" />
+      <circle cx="60" cy="60" r="5" fill="none" stroke="white" stroke-width="0.5" opacity="0.3" />
+      <circle cx="60" cy="60" r="10" fill="none" stroke="white" stroke-width="0.5" opacity="0.3" />
+      <circle cx="60" cy="60" r="20" fill="none" stroke="white" stroke-width="0.5" opacity="0.2" />
+
+      <!-- Repeated pattern at quarters -->
+      <path fill="none" stroke="white" stroke-width="0.8" opacity="0.15" d="M0,0 
+               C5,-5 10,-5 15,0 C20,5 20,10 15,15 C10,20 5,20 0,15 C-5,10 -5,5 0,0
+               M120,0 
+               C125,-5 130,-5 135,0 C140,5 140,10 135,15 C130,20 125,20 120,15 C115,10 115,5 120,0
+               M0,120 
+               C5,115 10,115 15,120 C20,125 20,130 15,135 C10,140 5,140 0,135 C-5,130 -5,125 0,120
+               M120,120 
+               C125,115 130,115 135,120 C140,125 140,130 135,135 C130,140 125,140 120,135 C115,130 115,125 120,120" />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#floral-pattern)" />
+</svg>

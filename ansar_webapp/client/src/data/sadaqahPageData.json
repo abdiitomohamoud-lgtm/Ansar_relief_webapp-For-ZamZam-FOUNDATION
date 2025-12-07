@@ -1,0 +1,183 @@
+{
+  "tabs": [
+    { "id": "general", "label": "General Sadaqah" },
+    { "id": "immediate", "label": "Immediate Needs" },
+    { "id": "periodic", "label": "Periodic Donation" },
+    { "id": "kafarat", "label": "Kafarat & Fidyah" },
+    { "id": "aqiqah", "label": "Aqiqah & Sacrifice" },
+    { "id": "specific", "label": "Specific Projects" }
+  ],
+  "hero": {
+    "tagline": "Multiply Your Spiritual Rewards",
+    "heading": "Give <span class=\"text-primary-300 relative\">Sadaqah</span> & Change Lives",
+    "subheading": "Every act of charity, no matter how small, has the power to transform lives and communities around the world. Your generosity creates lasting impact.",
+    "hadith": "The Prophet ﷺ said: 'Sadaqah extinguishes sin as water extinguishes fire.'",
+    "hadithSource": "— Tirmidhi",
+    "buttons": [
+      { "anchor": "#sadaqah-options", "text": "Explore Sadaqah Options" },
+      { "anchor": "#donation-form", "text": "Donate Now" }
+    ],
+    "popularTitle": "Popular Sadaqah Options",
+    "popularSubtitle": "Choose from our most impactful options",
+    "popularOptions": [
+      { "id": "popular-1", "title": "Feed the Poor", "subtitle": "From $10", "iconName": "FaUsers" },
+      { "id": "popular-2", "title": "Daily Sadaqah", "subtitle": "Recurring charity", "iconName": "FaHeart" },
+      { "id": "popular-3", "title": "Clean Water", "subtitle": "Build a well", "iconName": "FaWater" },
+      { "id": "popular-4", "title": "Orphan Support", "subtitle": "Monthly sponsorship", "iconName": "FaChild" }
+    ]
+  },
+  "sectionHeadings": {
+    "chooseType": "Choose Your Sadaqah Type",
+    "chooseTypeDesc": "Select how you would like to contribute and make a difference in the lives of those in need.",
+    "immediate": "Immediate Needs",
+    "immediateDesc": "These individuals and families need your immediate support. Your Sadaqah can help relieve their suffering and provide essential assistance.",
+    "periodic": "Periodic Sadaqah",
+    "periodicDesc": "Set up regular donations to provide consistent support and maximize your rewards. Choose the schedule that works best for you."
+  },
+  "sadaqahOptions": {
+    "general": [
+      {
+        "id": "general-1",
+        "title": "Daily Sadaqah",
+        "description": "A special donation program that allows enrolled donors to automatically donate an agreed amount every day.",
+        "image": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6",
+        "iconName": "FaCalendarAlt",
+        "cta": "Subscribe Now",
+        "isPeriodic": true
+      },
+      {
+        "id": "general-2",
+        "title": "Jariyah Sadaqah",
+        "description": "A continuous charity that keeps giving rewards even after your lifetime through sustainable projects.",
+        "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+        "iconName": "FaInfinity",
+        "cta": "Learn More",
+        "isPeriodic": false
+      },
+      {
+        "id": "general-3",
+        "title": "Food Security",
+        "description": "Help provide nutritious meals to families in need through our food distribution programs.",
+        "image": "https://images.unsplash.com/photo-1515516083302-751518d7fcdf",
+        "iconName": "FaUtensils",
+        "cta": "Donate Now",
+        "isPeriodic": false
+      }
+    ],
+    "immediate": [
+      {
+        "id": "immediate-1",
+        "title": "Emergency Relief Fund",
+        "description": "Support our rapid response efforts to provide immediate aid to communities affected by disasters.",
+        "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb",
+        "iconName": "FaFirstAid",
+        "cta": "Donate Now",
+        "isPeriodic": false
+      },
+      {
+        "id": "immediate-2",
+        "title": "Winter Warmth Campaign",
+        "description": "Help provide warm clothing, blankets, and heating assistance to families during cold months.",
+        "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d",
+        "iconName": "FaSnowflake",
+        "cta": "Donate Now",
+        "isPeriodic": false
+      }
+    ],
+    "periodic": [
+      {
+        "id": "periodic-1",
+        "title": "Friday Sadaqah",
+        "description": "Automatically donate a fixed amount every Friday to support our ongoing humanitarian work.",
+        "image": "https://images.unsplash.com/photo-1587270002317-05151f0d6a8c",
+        "iconName": "FaMosque",
+        "cta": "Subscribe Now",
+        "isPeriodic": true
+      },
+      {
+        "id": "periodic-2",
+        "title": "Monthly Orphan Sponsorship",
+        "description": "Provide consistent support to orphaned children through monthly donations for their care and education.",
+        "image": "https://images.unsplash.com/photo-1516497091502-0485234897ee",
+        "iconName": "FaChild",
+        "cta": "Sponsor Now",
+        "isPeriodic": true
+      }
+    ],
+    "kafarat": [
+      {
+        "id": "kafarat-1",
+        "title": "Fidyah Payment",
+        "description": "Compensate for missed fasts during Ramadan by feeding the needy or providing monetary compensation.",
+        "image": "https://images.unsplash.com/photo-1587270002317-05151f0d6a8c",
+        "iconName": "FaCalendarAlt",
+        "cta": "Pay Now",
+        "isPeriodic": false
+      }
+    ],
+    "aqiqah": [
+      {
+        "id": "aqiqah-1",
+        "title": "Traditional Aqiqah",
+        "description": "Celebrate your child's birth with a traditional Aqiqah ceremony including animal sacrifice and distribution.",
+        "image": "https://images.unsplash.com/photo-1573164713714-d91712e63004",
+        "iconName": "FaBaby",
+        "cta": "Arrange Now",
+        "isPeriodic": false
+      }
+    ],
+    "specific": [
+      {
+        "id": "specific-1",
+        "title": "Build a Mosque",
+        "description": "Support the construction of a mosque in underserved communities to provide a place of worship and community center.",
+        "image": "https://images.unsplash.com/photo-1587270002317-05151f0d6a8c",
+        "iconName": "FaMosque",
+        "cta": "Donate Now",
+        "isPeriodic": false
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "iconName": "FaHeart",
+      "title": "Spiritual Rewards",
+      "description": "Earn continuous rewards (Sadaqah Jariyah) for your charitable acts"
+    },
+    {
+      "iconName": "FaChartLine",
+      "title": "Community Impact",
+      "description": "See the direct impact of your donations on people's lives"
+    },
+    {
+      "iconName": "FaShieldAlt",
+      "title": "Transparency",
+      "description": "Track how your contributions are used through regular updates"
+    },
+    {
+      "iconName": "FaReceipt",
+      "title": "Tax Benefits",
+      "description": "Receive tax-deductible receipts for your charitable donations"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Sadaqah?",
+      "answer": "Sadaqah is voluntary charitable giving in Islam, encouraged at all times to help those in need and earn spiritual rewards."
+    },
+    {
+      "question": "Is my donation tax-deductible?",
+      "answer": "Yes, all donations are tax-deductible. You will receive a receipt for your contribution that can be used for tax purposes."
+    },
+    {
+      "question": "Can I make recurring donations?",
+      "answer": "Absolutely! We offer several recurring donation options to make it easy to give consistently and maximize your rewards."
+    }
+  ],
+  "cta": {
+    "hadith": "The believer's shade on the Day of Resurrection will be his charity.",
+    "source": "Tirmidhi",
+    "text": "Your Sadaqah creates a chain of goodness that extends far beyond what you can imagine. Every donation, no matter how small, contributes to lasting change in communities around the world.",
+    "button": "Donate Now"
+  }
+}

@@ -1,0 +1,346 @@
+[
+  {
+    "id": "orphan",
+    "title": "Orphan Sponsorship",
+    "hero": {
+      "titleHighlight": "Orphan",
+      "titleRest": "Sponsorship",
+      "description": "Give hope to orphaned children by providing them with education, healthcare, and a stable environment to grow and thrive.",
+      "backgroundImage": "https://images.unsplash.com/photo-1519817650390-64a93db51149?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+    },
+    "impactStats": [
+      { "icon": "user", "value": "500+", "label": "Orphans Supported" },
+      { "icon": "graduation", "value": "85%", "label": "Education Rate" },
+      { "icon": "home", "value": "12", "label": "Countries" }
+    ],
+    "filters": [
+      { "id": "all", "label": "All" },
+      { "id": "education", "label": "Education" },
+      { "id": "healthcare", "label": "Healthcare" },
+      { "id": "basic-needs", "label": "Basic Needs" }
+    ],
+    "items": [
+      {
+        "id": 1,
+        "name": "Ahmad",
+        "age": 12,
+        "location": "Syria",
+        "image": "https://images.unsplash.com/photo-1516589178581-6cd7df1e035b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "story": "Ahmad lost both parents in the conflict. He dreams of becoming a doctor to help others.",
+        "needs": ["education", "healthcare"],
+        "monthlyCost": 150,
+        "sponsored": false
+      },
+      {
+        "id": 2,
+        "name": "Fatima",
+        "age": 8,
+        "location": "Yemen",
+        "image": "https://images.unsplash.com/photo-1529390079861-591de354faf5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "story": "Fatima lives with her grandmother after losing her parents to illness.",
+        "needs": ["education", "basic-needs"],
+        "monthlyCost": 120,
+        "sponsored": false
+      },
+      {
+        "id": 3,
+        "name": "Mohammed",
+        "age": 15,
+        "location": "Gaza",
+        "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "story": "Mohammed is a bright student who needs support to continue his education.",
+        "needs": ["education"],
+        "monthlyCost": 200,
+        "sponsored": true
+      }
+    ],
+  "benefits": {
+  "description": "When you sponsor an orphan, you provide more than just financial support",
+  "items": [
+    { "icon": "graduation", "title": "Education", "text": "Access to quality education, school supplies, and tutoring support" },
+    { "icon": "heart", "title": "Healthcare", "text": "Regular medical check-ups, vaccinations, and access to healthcare services" },
+    { "icon": "home", "title": "Basic Needs", "text": "Nutritious food, clothing, and a safe living environment" }
+  ]
+},
+    "impact": "When you sponsor an orphan, you provide more than just financial support"
+  },
+  {
+    "id": "student",
+    "title": "Student Sponsorship",
+    "hero": {
+      "titleHighlight": "Student",
+      "titleRest": "Sponsorship",
+      "description": "Help students continue their education and achieve their dreams. Your support provides access to quality education and learning resources.",
+      "backgroundImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+    },
+    "impactStats": [
+      { "icon": "user", "value": "300+", "label": "Students Supported" },
+      { "icon": "graduation", "value": "90%", "label": "Graduation Rate" },
+      { "icon": "home", "value": "15", "label": "Countries" }
+    ],
+    "filters": [
+      { "id": "all", "label": "All" },
+      { "id": "university", "label": "University" },
+      { "id": "high-school", "label": "High School" },
+      { "id": "vocational", "label": "Vocational" }
+    ],
+    "items": [
+      {
+        "id": 1,
+        "name": "Sarah",
+        "age": 19,
+        "location": "Yemen",
+        "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "story": "Sarah dreams of becoming a doctor to help her community. She needs support to continue her medical studies.",
+        "program": "university",
+        "monthlyCost": 200,
+        "sponsored": false
+      },
+      {
+        "id": 2,
+        "name": "Ahmed",
+        "age": 16,
+        "location": "Syria",
+        "image": "https://images.unsplash.com/photo-1529390079861-591de354faf5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "story": "Ahmed is a bright student who wants to study engineering. He needs support to complete his high school education.",
+        "program": "high-school",
+        "monthlyCost": 150,
+        "sponsored": false
+      },
+      {
+        "id": 3,
+        "name": "Fatima",
+        "age": 20,
+        "location": "Gaza",
+        "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "story": "Fatima is studying computer science and needs support to continue her education.",
+        "program": "university",
+        "monthlyCost": 180,
+        "sponsored": true
+      }
+    ],
+    "benefits": {
+      "description": "When you sponsor a student, you provide more than just financial support",
+      "items": [
+        {
+          "icon": "graduation",
+          "title": "Education",
+          "text": "Access to quality education, school supplies, and tutoring support"
+        },
+        {
+          "icon": "heart",
+          "title": "Healthcare",
+          "text": "Regular medical check-ups and access to healthcare services"
+        },
+        {
+          "icon": "home",
+          "title": "Basic Needs",
+          "text": "Nutritious food, transportation, and study materials"
+        }
+      ]
+    }
+  },
+  {
+    "id": "family",
+    "title": "Family Sponsorship",
+    "hero": {
+      "titleHighlight": "Family",
+      "titleRest": "Sponsorship",
+      "description": "Support families in need with essential resources and stability. Your sponsorship helps provide education, healthcare, and basic needs for entire families.",
+      "backgroundImage": "https://images.unsplash.com/photo-1519817650390-64a93db51149?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+    },
+    "impactStats": [
+      { "icon": "home", "value": "500+", "label": "Families Supported" },
+      { "icon": "heart", "value": "1,000+", "label": "Lives Improved" },
+      { "icon": "user", "value": "300+", "label": "Sustainable Projects" }
+    ],
+    "filters": [
+      { "id": "all", "label": "All" },
+      { "id": "displaced", "label": "Displaced" },
+      { "id": "single-parent", "label": "Single Parent" },
+      { "id": "low-income", "label": "Low Income" }
+    ],
+    "items": [
+      {
+        "id": 1,
+        "name": "Al-Masri Family",
+        "members": 5,
+        "location": "Syria",
+        "image": "https://images.unsplash.com/photo-1519817650390-64a93db51149?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "story": "The Al-Masri family lost their home in the conflict. They need support to rebuild their lives and provide for their children.",
+        "type": "displaced",
+        "monthlyCost": 300,
+        "sponsored": false
+      },
+      {
+        "id": 2,
+        "name": "Hassan Family",
+        "members": 4,
+        "location": "Yemen",
+        "image": "https://images.unsplash.com/photo-1529390079861-591de354faf5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "story": "Mrs. Hassan is a single mother raising three children. She needs support to provide education and healthcare for her family.",
+        "type": "single-parent",
+        "monthlyCost": 250,
+        "sponsored": false
+      },
+      {
+        "id": 3,
+        "name": "Abdullah Family",
+        "members": 6,
+        "location": "Gaza",
+        "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "story": "The Abdullah family struggles with low income and needs support to meet their basic needs.",
+        "type": "low-income",
+        "monthlyCost": 350,
+        "sponsored": true
+      }
+    ],
+    "benefits": {
+      "description": "By sponsoring a family, you provide essential support that helps them become self-sufficient",
+      "items": [
+        { "icon": "food", "title": "Food Security", "text": "Monthly food supplies and nutrition assistance" },
+        { "icon": "construction", "title": "Housing Support", "text": "Assistance with rent or housing costs" },
+        { "icon": "heart", "title": "Healthcare Access", "text": "Medical care and health insurance coverage" }
+      ]
+    }
+  },
+  {
+    "id": "teacher",
+    "title": "Teacher Sponsorship",
+    "hero": {
+      "titleHighlight": "Teacher",
+      "titleRest": "Sponsorship",
+      "description": "Support dedicated teachers who are shaping the future of their communities. Your sponsorship helps provide quality education and resources for students in need.",
+      "backgroundImage": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+    },
+    "impactStats": [
+      { "icon": "chalkboard-teacher", "value": "300+", "label": "Teachers Supported" },
+      { "icon": "book-open", "value": "1,000+", "label": "Students Impacted" },
+      { "icon": "graduation-cap", "value": "95%", "label": "Student Graduation Rate" }
+    ],
+    "filters": [
+      { "id": "all", "label": "All" },
+      { "id": "primary", "label": "Primary School" },
+      { "id": "secondary", "label": "Secondary School" },
+      { "id": "special-education", "label": "Special Education" }
+    ],
+    "items": [
+      {
+        "id": 1,
+        "name": "Amina Hassan",
+        "subject": "Mathematics",
+        "location": "Somalia",
+        "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "story": "Amina teaches mathematics to primary school students in a rural area. She needs support to continue her work and improve her teaching methods.",
+        "type": "primary",
+        "monthlyCost": 200,
+        "sponsored": false
+      },
+      {
+        "id": 2,
+        "name": "Mohammed Ali",
+        "subject": "Science",
+        "location": "Yemen",
+        "image": "https://images.unsplash.com/photo-1529390079861-591de354faf5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "story": "Mohammed teaches science to secondary school students. He needs support to purchase laboratory equipment and teaching materials.",
+        "type": "secondary",
+        "monthlyCost": 250,
+        "sponsored": false
+      },
+      {
+        "id": 3,
+        "name": "Fatima Ahmed",
+        "subject": "Special Education",
+        "location": "Syria",
+        "image": "https://images.unsplash.com/photo-1519817650390-64a93db51149?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "story": "Fatima works with children with special needs. She needs support to provide specialized education and care.",
+        "type": "special-education",
+        "monthlyCost": 300,
+        "sponsored": true
+      }
+    ],
+    "benefits": {
+      "description": "Supporting a teacher means investing in the future of countless students",
+      "items": [
+        { "icon": "chalkboard", "title": "Teaching Resources", "text": "Provision of essential teaching materials and resources" },
+        { "icon": "user-graduate", "title": "Professional Development", "text": "Opportunities for teachers to enhance their skills" },
+        { "icon": "school", "title": "Classroom Supplies", "text": "Support for purchasing classroom supplies and equipment" }
+      ]
+    }
+  },
+  {
+    "id": "special-needs",
+    "title": "Special Needs",
+    "hero": {
+    "titleHighlight": "Special Needs",
+    "titleRest": "Sponsorship",
+      "description": "Support children with disabilities and special needs. Your sponsorship provides therapy, education, and essential care for a brighter future.",
+    "backgroundImage": "https://images.unsplash.com/photo-1519817650390-64a93db51149?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+  },
+  "impactStats": [
+    {
+      "icon": "wheelchair",
+      "value": "150+",
+      "label": "Individuals Supported"
+    },
+    {
+      "icon": "hospital",
+      "value": "10",
+      "label": "Specialized Centers"
+    },
+    {
+      "icon": "user-friends",
+      "value": "50+",
+      "label": "Caregivers Trained"
+    }],
+    "filters": [
+      { "id": "all", "label": "All" },
+      { "id": "physical", "label": "Physical Disabilities" },
+      { "id": "intellectual", "label": "Intellectual Disabilities" },
+      { "id": "sensory", "label": "Sensory Disabilities" }
+    ],
+    "items": [
+      {
+        "id": 1,
+        "name": "Ahmed Hassan",
+        "age": 12,
+        "location": "Somalia",
+        "image": "https://images.unsplash.com/photo-1519817650390-64a93db51149?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "story": "Ahmed has cerebral palsy and needs support for physical therapy and specialized education.",
+        "type": "physical",
+        "monthlyCost": 300,
+        "sponsored": false
+      },
+      {
+        "id": 2,
+        "name": "Fatima Ali",
+        "age": 8,
+        "location": "Yemen",
+        "image": "https://images.unsplash.com/photo-1519817650390-64a93db51149?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "story": "Fatima has Down syndrome and needs support for specialized education and therapy.",
+        "type": "intellectual",
+        "monthlyCost": 250,
+        "sponsored": false
+      },
+      {
+        "id": 3,
+        "name": "Mohammed Ahmed",
+        "age": 15,
+        "location": "Syria",
+        "image": "https://images.unsplash.com/photo-1519817650390-64a93db51149?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "story": "Mohammed is visually impaired and needs support for specialized education and assistive devices.",
+        "type": "sensory",
+        "monthlyCost": 200,
+        "sponsored": true
+      }
+    ],
+    "benefits": {
+      "description": "Sponsoring an individual with special needs provides them with essential support and opportunities",
+      "items": [
+        { "icon": "hands-helping", "title": "Specialized Care", "text": "Access to specialized therapy and medical care" },
+        { "icon": "wheelchair", "title": "Mobility Aids", "text": "Provision of wheelchairs and other assistive devices" },
+        { "icon": "graduation-cap", "title": "Educational Support", "text": "Access to educational programs and resources" }
+      ]
+    }
+  }
+]

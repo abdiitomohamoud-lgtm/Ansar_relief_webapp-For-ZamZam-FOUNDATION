@@ -1,0 +1,233 @@
+{
+  "hero": {
+    "headline": "Transform Lives Through Our Projects",
+    "subheadline": "Join us in making a lasting impact through our diverse range of projects. From building mosques to providing clean water, your support helps create sustainable change in communities worldwide.",
+    "icon": "FaHandHoldingHeart",
+    "buttons": [
+      { "label": "Donate Now", "link": "/sadaqah", "icon": "FaHandHoldingUsd" },
+      { "label": "Volunteer", "link": "/initiatives", "icon": "FaHandsHelping" }
+    ]
+  },
+  "testimonial": {
+    "quote": "The projects have transformed our community. We now have clean water, a mosque, and our children can attend school. Thank you for your support.",
+    "name": "Ahmed Hassan",
+    "role": "Community Leader, Somalia",
+    "image": "testimonialImages.person1"
+  },
+  "categoryPreview": {
+    "title": "Explore Our Project Categories",
+    "categories": [
+      { "title": "Mosques", "icon": "FaMosque" },
+      { "title": "Housing", "icon": "FaHome" },
+      { "title": "Water", "icon": "FaTint" },
+      { "title": "Health", "icon": "FaHospital" }
+    ]
+  },
+  "globalImpact": [
+    { "label": "Countries", "value": "50+", "icon": "FaMapMarkedAlt" },
+    { "label": "Partners", "value": "500+", "icon": "FaHandshake" },
+    { "label": "Projects", "value": "1000+", "icon": "FaPrayingHands" },
+    { "label": "Beneficiaries", "value": "1M+", "icon": "FaUsers" }
+  ],
+  "impactStats": [
+    { "label": "Projects Completed", "value": "500+", "icon": "FaStar" },
+    { "label": "Funds Raised", "value": "$10M+", "icon": "FaAward" },
+    { "label": "Beneficiaries", "value": "1M+", "icon": "FaUsers" },
+    { "label": "Countries Reached", "value": "50+", "icon": "FaGlobe" }
+  ],
+  "projectCategories": {
+    "title": "Our Project Categories",
+    "description": "Explore our diverse range of projects designed to make a lasting impact in communities worldwide",
+    "categories": [
+      {
+        "id": "mosques",
+        "title": "Mosques",
+        "description": "Building and maintaining places of worship",
+        "count": 12,
+        "icon": "FaMosque"
+      },
+      {
+        "id": "housing",
+        "title": "Housing",
+        "description": "Providing shelter for those in need",
+        "count": 8,
+        "icon": "FaHome"
+      },
+      {
+        "id": "water",
+        "title": "Water",
+        "description": "Clean water and sanitation projects",
+        "count": 15,
+        "icon": "FaTint"
+      },
+      {
+        "id": "health",
+        "title": "Health",
+        "description": "Healthcare facilities and services",
+        "count": 10,
+        "icon": "FaHospital"
+      },
+      {
+        "id": "education",
+        "title": "Education",
+        "description": "Schools and educational programs",
+        "count": 20,
+        "icon": "FaGraduationCap"
+      },
+      {
+        "id": "income",
+        "title": "Income",
+        "description": "Sustainable livelihood projects",
+        "count": 7,
+        "icon": "FaHandHoldingUsd"
+      },
+      {
+        "id": "relief",
+        "title": "Relief",
+        "description": "Emergency and disaster relief",
+        "count": 5,
+        "icon": "FaHandsHelping"
+      }
+    ]
+  },
+  "featuredProjectsSection": {
+    "title": "Featured Projects",
+    "headline": "Make a Difference Today",
+    "description": "Support our most impactful projects and help create lasting change in communities worldwide.",
+    "button": { "label": "View All Projects", "link": "/projects", "icon": "FaArrowRight" }
+  },
+  "featuredProjects": [
+    {
+      "id": "project-1",
+      "title": "Featured Project 1",
+      "description": "This is a sample project description that highlights the impact and importance of our work in the community.",
+      "image": "/assets/images/projects/featured/project1.jpg",
+      "location": "Sample Location",
+      "targetAmount": 50000,
+      "raisedAmount": 32000,
+      "beneficiaries": 800,
+      "status": "active"
+    },
+    {
+      "id": "project-2",
+      "title": "Featured Project 2",
+      "description": "This is a sample project description that highlights the impact and importance of our work in the community.",
+      "image": "/assets/images/projects/featured/project2.jpg",
+      "location": "Sample Location",
+      "targetAmount": 50000,
+      "raisedAmount": 50000,
+      "beneficiaries": 1200,
+      "status": "completed"
+    },
+    {
+      "id": "project-3",
+      "title": "Featured Project 3",
+      "description": "This is a sample project description that highlights the impact and importance of our work in the community.",
+      "image": "/assets/images/projects/featured/project3.jpg",
+      "location": "Sample Location",
+      "targetAmount": 50000,
+      "raisedAmount": 15000,
+      "beneficiaries": 600,
+      "status": "active"
+    },
+    {
+      "id": "project-4",
+      "title": "Featured Project 4",
+      "description": "This is a sample project description that highlights the impact and importance of our work in the community.",
+      "image": "/assets/images/projects/featured/project4.jpg",
+      "location": "Sample Location",
+      "targetAmount": 50000,
+      "raisedAmount": 40000,
+      "beneficiaries": 950,
+      "status": "active"
+    },
+    {
+      "id": "project-5",
+      "title": "Featured Project 5",
+      "description": "This is a sample project description that highlights the impact and importance of our work in the community.",
+      "image": "/assets/images/projects/featured/project5.jpg",
+      "location": "Sample Location",
+      "targetAmount": 50000,
+      "raisedAmount": 50000,
+      "beneficiaries": 1100,
+      "status": "completed"
+    },
+    {
+      "id": "project-6",
+      "title": "Featured Project 6",
+      "description": "This is a sample project description that highlights the impact and importance of our work in the community.",
+      "image": "/assets/images/projects/featured/project6.jpg",
+      "location": "Sample Location",
+      "targetAmount": 50000,
+      "raisedAmount": 25000,
+      "beneficiaries": 700,
+      "status": "active"
+    }
+  ],
+  "filters": {
+    "statusOptions": ["all", "active", "completed"],
+    "sortOptions": ["newest", "oldest", "most-funded", "least-funded"]
+  },
+  "search": {
+    "placeholder": "Search projects...",
+    "fields": ["title", "description"]
+  },
+  "navbar": {
+    "height": "dynamic (based on .navbar element)"
+  },
+  "processSection": {
+    "title": "Our Process",
+    "steps": [
+      {
+        "title": "Identify",
+        "description": "We identify communities in need through thorough research and assessment.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Plan",
+        "description": "We develop comprehensive plans with local stakeholders and experts.",
+        "icon": "FaHandshake"
+      },
+      {
+        "title": "Implement",
+        "description": "We execute projects with local communities and partners.",
+        "icon": "FaUsers"
+      },
+      {
+        "title": "Monitor",
+        "description": "We track progress and impact to ensure sustainable results.",
+        "icon": "FaChartLine"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "title": "Project Initiation",
+      "description": "We begin by identifying needs and planning our approach",
+      "icon": "FaRegCalendarAlt"
+    },
+    {
+      "title": "Community Engagement",
+      "description": "We work closely with local communities to ensure their needs are met",
+      "icon": "FaUsers"
+    },
+    {
+      "title": "Implementation",
+      "description": "Our team works on the ground to deliver the project",
+      "icon": "FaHandshake"
+    },
+    {
+      "title": "Monitoring & Evaluation",
+      "description": "We track progress and measure impact to ensure success",
+      "icon": "FaRegClock"
+    }
+  ],
+  "cta": {
+    "headline": "Ready to Make a Difference?",
+    "description": "Join us in creating lasting impact through our diverse range of projects.",
+    "buttons": [
+      { "label": "Donate Now", "link": "/sadaqah", "icon": "FaHandHoldingUsd" },
+      { "label": "Become a Volunteer", "link": "/initiatives", "icon": "FaHandsHelping" }
+    ]
+  }
+}

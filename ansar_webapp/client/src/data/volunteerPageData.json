@@ -1,0 +1,209 @@
+
+{
+  "hero": {
+    "heading": "Make a Difference",
+    "subheading": "Volunteer With Us",
+    "cta": ["Apply Now", "Learn More"],
+    "quote": {
+      "text": "The best of people are those who are most beneficial to people.",
+      "author": "- Prophet Muhammad (ﷺ)"
+    }
+  },
+  "infoSection": {
+    "heading": "Why Volunteer With Us?",
+    "description": "Volunteering with our organization offers a meaningful way to give back to the community and make a tangible difference in people's lives. When you volunteer with us, you're not just giving your time – you're helping to build stronger communities and spread hope to those who need it most."
+  },
+  "programsSection": {
+    "heading": "Our Volunteer Programs",
+    "programs": [
+      {
+        "title": "Food Distribution",
+        "icon": "FaHandHoldingHeart",
+        "description": "Help distribute food packages to families in need and support our hunger relief efforts.",
+        "demand": "High Demand",
+        "opportunity": "Weekly Opportunities"
+      },
+      {
+        "title": "Teaching & Education",
+        "icon": "FaUsers",
+        "description": "Empower children and adults by volunteering as a teacher or tutor in our education programs.",
+        "demand": "High Demand",
+        "opportunity": "Weekly Opportunities"
+      },
+      {
+        "title": "Fundraising",
+        "icon": "FaBriefcase",
+        "description": "Assist with fundraising campaigns and events to support our charitable projects.",
+        "demand": "High Demand",
+        "opportunity": "Weekly Opportunities"
+      },
+      {
+        "title": "Event Organization",
+        "icon": "FaUsers",
+        "description": "Plan and organize community events that bring people together for a good cause.",
+        "demand": "High Demand",
+        "opportunity": "Weekly Opportunities"
+      },
+      {
+        "title": "Social Media",
+        "icon": "FaUsers",
+        "description": "Spread awareness and engage the community by managing our social media channels.",
+        "demand": "High Demand",
+        "opportunity": "Weekly Opportunities"
+      },
+      {
+        "title": "Administrative Support",
+        "icon": "FaBriefcase",
+        "description": "Help with office tasks, data entry, and organizational support.",
+        "demand": "High Demand",
+        "opportunity": "Weekly Opportunities"
+      },
+      {
+        "title": "Medical Services",
+        "icon": "FaHandHoldingHeart",
+        "description": "Provide medical assistance and health education to underserved populations.",
+        "demand": "High Demand",
+        "opportunity": "Weekly Opportunities"
+      },
+      {
+        "title": "Translation Services",
+        "icon": "FaUsers",
+        "description": "Bridge language gaps by translating materials and assisting non-native speakers.",
+        "demand": "High Demand",
+        "opportunity": "Weekly Opportunities"
+      },
+      {
+        "title": "Counseling",
+        "icon": "FaUsers",
+        "description": "Support individuals and families with counseling and emotional support.",
+        "demand": "High Demand",
+        "opportunity": "Weekly Opportunities"
+      }
+    ]
+  },
+  "benefitsSection": {
+    "heading": "Benefits of Volunteering",
+    "icon": "FaHandsHelping",
+    "benefits": [
+      {
+        "title": "Make a positive impact in your community",
+        "description": "Your time and effort directly improve the lives of others and strengthen the community.",
+        "icon": "FaHeart"
+      },
+      {
+        "title": "Gain valuable skills and experience",
+        "description": "Develop new abilities and enhance your resume through hands-on volunteering.",
+        "icon": "FaLightbulb"
+      },
+      {
+        "title": "Meet new people and build friendships",
+        "description": "Connect with like-minded individuals and form lasting relationships.",
+        "icon": "FaUsers"
+      },
+      {
+        "title": "Increase your sense of purpose and fulfillment",
+        "description": "Experience the joy and satisfaction of making a real difference.",
+        "icon": "FaSmile"
+      },
+      {
+        "title": "Enhance your resume and career prospects",
+        "description": "Volunteering demonstrates initiative and commitment to future employers.",
+        "icon": "FaBriefcase"
+      },
+      {
+        "title": "Contribute to causes you care about",
+        "description": "Support projects and missions that align with your values and passions.",
+        "icon": "FaHandsHelping"
+      }
+    ]
+  },
+  "statsSection": {
+    "heading": "Impact Stats",
+    "stats": [
+      { "label": "Active Volunteers", "value": "1,200+", "icon": "FaUsers" },
+      { "label": "Countries", "value": "20+", "icon": "FaGlobe" },
+      { "label": "Volunteer Hours", "value": "45,000+", "icon": "FaClock" },
+      { "label": "Program Areas", "value": "9", "icon": "FaBriefcase" }
+    ]
+  },
+  "formSection": {
+    "steps": [
+      {
+        "title": "Personal Info",
+        "fields": [
+          { "name": "firstName", "label": "First Name" },
+          { "name": "lastName", "label": "Last Name" },
+          { "name": "email", "label": "Email" },
+          { "name": "phone", "label": "Phone Number" },
+          { "name": "city", "label": "City" },
+          { "name": "country", "label": "Country" }
+        ]
+      },
+      {
+        "title": "Interests & Availability",
+        "fields": [
+          {
+            "name": "availability",
+            "label": "Availability",
+            "options": ["Weekdays", "Weekends", "Mornings", "Afternoons", "Evenings"]
+          },
+          {
+            "name": "interests",
+            "label": "Interests",
+            "options": [
+              "Food Distribution",
+              "Teaching & Education",
+              "Fundraising",
+              "Event Organization",
+              "Social Media",
+              "Administrative Support",
+              "Medical Services",
+              "Translation Services",
+              "Counseling"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Skills & Experience",
+        "fields": [
+          { "name": "skills", "label": "Special Skills or Qualifications" },
+          { "name": "experience", "label": "Previous Volunteer Experience" }
+        ]
+      }
+    ],
+    "buttons": ["Continue", "Previous", "Submit Application", "Submit Another Application"],
+    "completion": {
+      "heading": "Application Submitted!",
+      "description": "Thank you for your interest in volunteering! We will contact you soon."
+    },
+    "alert": "All volunteer applications will be reviewed by our team. We'll contact you within 3-5 business days."
+  },
+  "testimonialsSection": {
+    "heading": "What Our Volunteers Say",
+    "description": "Hear from people who have experienced the joy of volunteering with us",
+    "testimonials": [
+      {
+        "name": "Sarah J.",
+        "role": "Food Distribution Volunteer",
+        "image": "https://randomuser.me/api/portraits/women/32.jpg",
+        "icon": "FaHandHoldingHeart",
+        "testimonial": "Volunteering with Ansar has been one of the most rewarding experiences of my life. Seeing the smiles on people's faces when we deliver food packages is priceless."
+      },
+      {
+        "name": "Ahmed K.",
+        "role": "Teaching Volunteer",
+        "image": "https://randomuser.me/api/portraits/men/45.jpg",
+        "icon": "FaUsers",
+        "testimonial": "I've been volunteering as an ESL teacher for 2 years now. The sense of community and the difference we make in people's lives keeps me coming back every week."
+      },
+      {
+        "name": "Fatima R.",
+        "role": "Medical Services Volunteer",
+        "image": "https://randomuser.me/api/portraits/women/67.jpg",
+        "icon": "FaHandHoldingHeart",
+        "testimonial": "Using my medical skills to help those who can't afford healthcare has been incredibly fulfilling. Ansar makes it easy to contribute in meaningful ways."
+      }
+    ]
+  }
+}

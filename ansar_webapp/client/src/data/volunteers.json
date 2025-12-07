@@ -1,0 +1,26 @@
+[
+  {
+    "firstName": "Amina",
+    "lastName": "Rahman",
+    "email": "amina.rahman@example.com",
+    "phone": "+1 (555) 123-4567",
+    "city": "Chicago",
+    "country": "United States",
+    "availability": ["Weekdays", "Mornings"],
+    "interests": ["Food Distribution", "Teaching & Education"],
+    "skills": "Fluent in English and Arabic, CPR certified",
+    "experience": "Volunteered at local food banks and taught ESL classes for 2 years."
+  },
+  {
+    "firstName": "Bilal",
+    "lastName": "Khan",
+    "email": "bilal.khan@example.com",
+    "phone": "+44 7700 900123",
+    "city": "London",
+    "country": "United Kingdom",
+    "availability": ["Weekends", "Evenings"],
+    "interests": ["Fundraising", "Event Organization", "Social Media"],
+    "skills": "Event planning, social media management, public speaking",
+    "experience": "Organized charity events and managed social media for a youth group."
+  }
+]

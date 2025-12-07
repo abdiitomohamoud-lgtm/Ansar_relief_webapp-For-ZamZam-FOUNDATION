@@ -1,0 +1,10 @@
+[
+  { "id": "all", "name": "All Campaigns", "icon": "FaHandHoldingHeart" },
+  { "id": "relief", "name": "Emergency Relief", "icon": "FaHeart", "count": 8 },
+  { "id": "water", "name": "Water Projects", "icon": "FaWater", "count": 12 },
+  { "id": "education", "name": "Education", "icon": "FaSchool", "count": 9 },
+  { "id": "food", "name": "Food & Nutrition", "icon": "FaUtensils", "count": 7 },
+  { "id": "housing", "name": "Housing", "icon": "FaHome", "count": 5 },
+  { "id": "mosque", "name": "Mosques", "icon": "FaMosque", "count": 10 },
+  { "id": "income", "name": "Income Generation", "icon": "FaHands", "count": 4 }
+]

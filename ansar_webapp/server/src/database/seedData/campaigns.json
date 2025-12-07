@@ -1,0 +1,278 @@
+[
+  {
+    "id": "gaza2024",
+    "title": "Gaza Emergency Relief",
+    "description": "Urgent humanitarian aid for families affected by the crisis in Gaza",
+    "image": "/assets/images/campaigns/emergency-1.jpg",
+    "raised": 789500,
+    "goal": 1000000,
+    "category": "relief",
+    "daysLeft": 13,
+    "licenseNumber": "2024/125",
+    "isUrgent": true,
+    "longDescription": "<p>The humanitarian situation in Gaza has reached catastrophic levels. Thousands of families have been displaced, with many losing their homes and livelihoods. Basic necessities like food, clean water, and medical supplies are in critically short supply.</p>\n<p>Your donation to this emergency relief campaign will help provide:</p>\n<ul>\n  <li>Emergency food packages for families</li>\n  <li>Clean drinking water and sanitation supplies</li>\n  <li>Medical aid and essential medicines</li>\n  <li>Emergency shelter kits and blankets</li>\n  <li>Psychological support for traumatized children</li>\n</ul>\n<p>We are working with local partners on the ground to ensure aid reaches those most in need as quickly as possible. Every donation, no matter how small, can make a significant difference in the lives of those suffering.</p>\n<p>This is an urgent appeal - please donate today and help save lives.</p>",
+    "gallery": [
+      "/images/campaigns/emergency-1.jpg",
+      "/images/campaigns/emergency-2.jpg",
+      "/images/campaigns/emergency-3.jpg"
+    ],
+    "country": "Palestine",
+    "location": "Gaza Strip",
+    "donorsCount": 1250,
+    "createdAt": "2024-01-10",
+    "updates": [
+      {
+        "id": 1,
+        "date": "2024-01-20",
+        "title": "First aid shipment delivered",
+        "content": "We are pleased to announce that the first shipment of emergency supplies has been successfully delivered to Gaza. This includes food packages, clean water, and medical supplies that will help hundreds of families."
+      },
+      {
+        "id": 2,
+        "date": "2024-01-15",
+        "title": "Campaign launched",
+        "content": "We have launched this emergency campaign to provide urgent humanitarian aid to families in Gaza. Thank you for your support."
+      }
+    ]
+  },
+  {
+    "id": "clean-water-23",
+    "title": "Clean Water Initiative",
+    "description": "Providing clean drinking water to communities in need",
+    "image": "/assets/images/campaigns/water-project.jpg",
+    "raised": 235000,
+    "goal": 350000,
+    "category": "water",
+    "daysLeft": 45,
+    "licenseNumber": "2023/894",
+    "isUrgent": false,
+    "longDescription": "<p>Access to clean water is a fundamental human right, yet millions of people around the world still lack it. This initiative aims to provide sustainable sources of clean drinking water to communities in need.</p>\n<ul>\n  <li>Drilling new wells in remote villages</li>\n  <li>Installing water purification systems</li>\n  <li>Educating communities on hygiene and sanitation</li>\n</ul>\n<p>Your support will help prevent waterborne diseases and improve the quality of life for countless families.</p>",
+    "gallery": [
+      "/assets/images/campaigns/water-project.jpg",
+      "/assets/images/campaigns/water-2.jpg",
+      "/assets/images/campaigns/water-3.jpg"
+    ],
+    "country": "Somalia",
+    "location": "Hargeisa",
+    "donorsCount": 800,
+    "createdAt": "2024-02-15",
+    "updates": [
+      {
+        "id": 1,
+        "date": "2024-03-01",
+        "title": "First well completed",
+        "content": "The first well has been successfully drilled, providing clean water to over 500 people."
+      }
+    ]
+  },
+  {
+    "id": "education-2024",
+    "title": "Education for All",
+    "description": "Building schools and supporting education in underserved communities",
+    "image": "/assets/images/campaigns/education.jpg",
+    "raised": 420000,
+    "goal": 600000,
+    "category": "education",
+    "daysLeft": 60,
+    "licenseNumber": "2024/023",
+    "isUrgent": false,
+    "longDescription": "<p>Education is the key to breaking the cycle of poverty. This campaign supports the construction of schools and provides essential learning materials to children in underserved areas.</p>\n<ul>\n  <li>Building new classrooms</li>\n  <li>Supplying books and uniforms</li>\n  <li>Training teachers</li>\n</ul>\n<p>Your donation will help empower the next generation with knowledge and opportunity.</p>",
+    "gallery": [
+      "/assets/images/campaigns/education.jpg",
+      "/assets/images/campaigns/education-2.jpg",
+      "/assets/images/campaigns/education-3.jpg"
+    ],
+    "country": "Pakistan",
+    "location": "Karachi",
+    "donorsCount": 950,
+    "createdAt": "2024-03-10",
+    "updates": [
+      {
+        "id": 1,
+        "date": "2024-03-20",
+        "title": "School construction started",
+        "content": "Construction has begun on the new school building, which will serve over 300 children."
+      }
+    ]
+  },
+  {
+    "id": "ramadan-2024",
+    "title": "Ramadan Food Packages",
+    "description": "Provide iftar meals to families during the holy month of Ramadan",
+    "image": "/assets/images/campaigns/ramadan.jpg",
+    "raised": 89000,
+    "goal": 150000,
+    "category": "food",
+    "daysLeft": 10,
+    "licenseNumber": "2024/045",
+    "isUrgent": true,
+    "longDescription": "<p>During Ramadan, many families struggle to afford nutritious meals for iftar and suhoor. This campaign delivers food packages to those in need, ensuring everyone can break their fast with dignity.</p>\n<ul>\n  <li>Distribution of food baskets</li>\n  <li>Special meals for children and elderly</li>\n  <li>Community iftar events</li>\n</ul>\n<p>Your support brings hope and nourishment to families during this blessed month.</p>",
+    "gallery": [
+      "/assets/images/campaigns/ramadan.jpg",
+      "/assets/images/campaigns/ramadan-2.jpg",
+      "/assets/images/campaigns/ramadan-3.jpg"
+    ],
+    "country": "Bangladesh",
+    "location": "Dhaka",
+    "donorsCount": 600,
+    "createdAt": "2024-03-25",
+    "updates": [
+      {
+        "id": 1,
+        "date": "2024-04-01",
+        "title": "First food packages delivered",
+        "content": "The first round of food packages has been distributed to 200 families in Dhaka."
+      }
+    ]
+  },
+  {
+    "id": "masjid-2024",
+    "title": "Build a Masjid",
+    "description": "Help build a mosque to serve as a center for worship and community",
+    "image": "/assets/images/campaigns/mosque-project.jpg",
+    "raised": 567000,
+    "goal": 900000,
+    "category": "mosque",
+    "daysLeft": 90,
+    "licenseNumber": "2024/067",
+    "isUrgent": false,
+    "longDescription": "<p>Building a masjid is a lasting charity that benefits generations. This project aims to construct a mosque that will serve as a spiritual and community hub.</p>\n<ul>\n  <li>Land acquisition and construction</li>\n  <li>Prayer halls and classrooms</li>\n  <li>Community outreach programs</li>\n</ul>\n<p>Your contribution will help create a place of worship and learning for all.</p>",
+    "gallery": [
+      "/assets/images/campaigns/mosque-project.jpg",
+      "/assets/images/campaigns/mosque-2.jpg",
+      "/assets/images/campaigns/mosque-3.jpg"
+    ],
+    "country": "Nigeria",
+    "location": "Kano",
+    "donorsCount": 400,
+    "createdAt": "2024-04-10",
+    "updates": [
+      {
+        "id": 1,
+        "date": "2024-04-20",
+        "title": "Foundation laid",
+        "content": "The foundation for the new masjid has been laid, marking the start of construction."
+      }
+    ]
+  },
+  {
+    "id": "homes-rebuild",
+    "title": "Rebuild Homes",
+    "description": "Help rebuild homes for displaced families affected by disasters",
+    "image": "/assets/images/campaigns/housing.jpg",
+    "raised": 320000,
+    "goal": 750000,
+    "category": "housing",
+    "daysLeft": 72,
+    "licenseNumber": "2023/987",
+    "isUrgent": false,
+    "longDescription": "<p>Natural disasters leave many families without shelter. This campaign helps rebuild safe and secure homes for those who have lost everything.</p>\n<ul>\n  <li>Construction of new houses</li>\n  <li>Provision of building materials</li>\n  <li>Support for displaced families</li>\n</ul>\n<p>Your generosity will help restore hope and stability to affected communities.</p>",
+    "gallery": [
+      "/assets/images/campaigns/housing.jpg",
+      "/assets/images/campaigns/housing-2.jpg",
+      "/assets/images/campaigns/housing-3.jpg"
+    ],
+    "country": "Turkey",
+    "location": "Hatay",
+    "donorsCount": 350,
+    "createdAt": "2024-05-01",
+    "updates": [
+      {
+        "id": 1,
+        "date": "2024-05-10",
+        "title": "First homes completed",
+        "content": "The first batch of new homes has been completed and handed over to families."
+      }
+    ]
+  },
+  {
+    "id": "bakery-project",
+    "title": "Community Bakery Project",
+    "description": "Support families by establishing bakeries that provide jobs and affordable bread",
+    "image": "/assets/images/campaigns/bakery.jpg",
+    "raised": 45000,
+    "goal": 120000,
+    "category": "income",
+    "daysLeft": 60,
+    "licenseNumber": "2024/032",
+    "isUrgent": false,
+    "longDescription": "<p>Access to affordable bread is vital for food security. This project establishes community bakeries that create jobs and provide fresh bread to families in need.</p>\n<ul>\n  <li>Bakery construction and equipment</li>\n  <li>Training for local bakers</li>\n  <li>Subsidized bread for low-income families</li>\n</ul>\n<p>Your donation helps fight hunger and supports local economies.</p>",
+    "gallery": [
+      "/assets/images/campaigns/bakery.jpg",
+      "/assets/images/campaigns/bakery-2.jpg",
+      "/assets/images/campaigns/bakery-3.jpg"
+    ],
+    "country": "Sudan",
+    "location": "Khartoum",
+    "donorsCount": 200,
+    "createdAt": "2024-05-15",
+    "updates": [
+      {
+        "id": 1,
+        "date": "2024-05-25",
+        "title": "Bakery opened",
+        "content": "The first community bakery is now open and serving fresh bread daily."
+      }
+    ]
+  },
+  {
+    "id": "refugee-relief",
+    "title": "Refugee Relief Campaign",
+    "description": "Emergency aid for refugees including shelter, food, and medical assistance",
+    "image": "/assets/images/campaigns/refugee.jpg",
+    "raised": 278000,
+    "goal": 500000,
+    "category": "relief",
+    "daysLeft": 30,
+    "licenseNumber": "2024/089",
+    "isUrgent": true,
+    "longDescription": "<p>Refugees face immense challenges after fleeing their homes. This campaign provides emergency shelter, food, and medical care to those in urgent need.</p>\n<ul>\n  <li>Temporary shelters and tents</li>\n  <li>Food and water distribution</li>\n  <li>Medical assistance and counseling</li>\n</ul>\n<p>Your support brings relief and hope to vulnerable refugee families.</p>",
+    "gallery": [
+      "/assets/images/campaigns/refugee.jpg",
+      "/assets/images/campaigns/refugee-2.jpg",
+      "/assets/images/campaigns/refugee-3.jpg"
+    ],
+    "country": "Jordan",
+    "location": "Amman",
+    "donorsCount": 500,
+    "createdAt": "2024-06-01",
+    "updates": [
+      {
+        "id": 1,
+        "date": "2024-06-10",
+        "title": "First aid delivered",
+        "content": "Essential supplies have reached the refugee camp, helping hundreds of families."
+      }
+    ]
+  },
+  {
+    "id": "wells-africa",
+    "title": "Water Wells in Africa",
+    "description": "Digging wells to provide clean water access in rural African communities",
+    "image": "/assets/images/campaigns/water-africa.jpg",
+    "raised": 198000,
+    "goal": 300000,
+    "category": "water",
+    "daysLeft": 45,
+    "licenseNumber": "2023/756",
+    "isUrgent": false,
+    "longDescription": "<p>Many rural communities in Africa lack access to safe drinking water. This campaign funds the construction of wells to provide clean water and improve health outcomes.</p>\n<ul>\n  <li>Well drilling and maintenance</li>\n  <li>Community training on water management</li>\n  <li>Health and hygiene education</li>\n</ul>\n<p>Your donation helps save lives and build healthier communities.</p>",
+    "gallery": [
+      "/assets/images/campaigns/water-africa.jpg",
+      "/assets/images/campaigns/water-africa-2.jpg",
+      "/assets/images/campaigns/water-africa-3.jpg"
+    ],
+    "country": "Kenya",
+    "location": "Kisumu",
+    "donorsCount": 300,
+    "createdAt": "2024-06-15",
+    "updates": [
+      {
+        "id": 1,
+        "date": "2024-06-20",
+        "title": "Well completed",
+        "content": "A new well is now operational, providing clean water to the local community."
+      }
+    ]
+  }
+]

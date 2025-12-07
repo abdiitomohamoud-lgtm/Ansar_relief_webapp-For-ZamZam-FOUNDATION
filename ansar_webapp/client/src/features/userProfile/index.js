@@ -1,0 +1,13 @@
+export { default as UserProfile } from './UserProfile.jsx';
+export { default as ProfileHeader } from './ProfileHeader.jsx';
+export { default as ProfileTabs } from './ProfileTabs.jsx';
+export { default as EditProfileModal } from './EditProfileModal.jsx';
+export { default as UserDonations } from './UserDonations.jsx';
+export { default as useProfileSync } from './useProfileSync.js';
+export { default as StatCard } from './StatCard.jsx';
+export { default as ImpactBadge } from './ImpactBadge.jsx';
+export { default as ActivityItem } from './ActivityItem.jsx';
+export { default as TabButton } from './TabButton.jsx';
+export { default as SettingsToggle } from './SettingsToggle.jsx';
+export { default as DashboardWidget } from './DashboardWidget.jsx';
+export * from './profile.schema.js'; 

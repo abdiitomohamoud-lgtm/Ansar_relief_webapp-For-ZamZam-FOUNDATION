@@ -1,0 +1,77 @@
+/* Shimmer effect for certification badges */
+.shimmer-badge {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer-badge::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.1) 25%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0.1) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: rotate(30deg);
+  animation: shimmer 4s infinite;
+}
+
+@keyframes shimmer {
+  0% { transform: rotate(30deg) translateX(-100%); }
+  100% { transform: rotate(30deg) translateX(100%); }
+}
+
+/* Floating animation for report cards */
+.float-animation {
+  animation: floating 6s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Page turn effect for reports */
+.page-turn {
+  transition: all 0.5s ease-in-out;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.page-turn:hover {
+  transform: rotateY(-15deg);
+  box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Pulse effect for featured items */
+.pulse-highlight {
+  animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+  0% { box-shadow: 0 0 0 0px rgba(29, 78, 216, 0.2); }
+  100% { box-shadow: 0 0 0 15px rgba(29, 78, 216, 0); }
+}
+
+/* Islamic calligraphy-inspired decoration */
+.calligraphy-decoration::before {
+  content: "بسم الله الرحمن الرحيم";
+  position: absolute;
+  font-family: "Amiri", serif;
+  opacity: 0.03;
+  font-size: 3rem;
+  color: currentColor;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-30deg);
+  white-space: nowrap;
+  pointer-events: none;
+} 

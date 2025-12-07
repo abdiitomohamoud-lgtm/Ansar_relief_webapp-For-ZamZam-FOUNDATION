@@ -1,0 +1,39 @@
+.pattern-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.pattern-svg {
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  transition: opacity 0.3s ease;
+}
+
+.pattern-container:hover .pattern-svg {
+  opacity: 0.2;
+}
+
+.pattern-islamic {
+  background-size: 120px;
+}
+
+.pattern-arabesque {
+  background-size: 150px 150px;
+}
+
+.pattern-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.1;
+  transition: opacity 0.3s ease;
+}
+
+.pattern-container:hover .pattern-image {
+  opacity: 0.2;
+} 

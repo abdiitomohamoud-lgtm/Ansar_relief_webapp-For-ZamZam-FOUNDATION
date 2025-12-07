@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Youth Education Program",
+    "slug": "youth-education-program",
+    "description": "Empowering youth through education and skill development programs.",
+    "image": "/assets/images/initiatives/youth-education.jpg",
+    "status": "active",
+    "startDate": "2025-01-01T00:00:00.000Z",
+    "endDate": "2025-12-31T00:00:00.000Z",
+    "goals": [
+      "Provide education access to 1000 underprivileged youth",
+      "Develop vocational training programs",
+      "Create mentorship opportunities"
+    ],
+    "impact": "Reaching 500+ students annually through various educational programs"
+  },
+  {
+    "title": "Community Health Initiative",
+    "slug": "community-health-initiative",
+    "description": "Improving healthcare access and awareness in underserved communities.",
+    "image": "/assets/images/initiatives/community-health.jpg",
+    "status": "active",
+    "startDate": "2025-03-01T00:00:00.000Z",
+    "endDate": "2026-02-28T00:00:00.000Z",
+    "goals": [
+      "Establish mobile health clinics",
+      "Conduct health awareness workshops",
+      "Provide basic medical supplies"
+    ],
+    "impact": "Serving 2000+ community members through health services"
+  }
+]

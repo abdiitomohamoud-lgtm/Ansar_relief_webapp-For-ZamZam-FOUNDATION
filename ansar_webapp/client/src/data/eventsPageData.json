@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "title": "Upcoming Events",
+    "subtitle": "Join us for our upcoming events and make a difference in your community",
+    "description": "Discover events happening near you and get involved in our mission to serve humanity"
+  },
+  "events": [
+    {
+      "id": "1",
+      "title": "Community Food Drive",
+      "date": "2024-06-15",
+      "time": "10:00 AM - 4:00 PM",
+      "location": "Central Park, New York",
+      "description": "Join us for our monthly community food drive to collect donations for local families in need.",
+      "category": "Community Service",
+      "attendees": 150,
+      "maxAttendees": 200,
+      "image": "/images/events/food-drive.jpg",
+      "organizer": "Community Outreach Team"
+    },
+    {
+      "id": "2",
+      "title": "Fundraising Gala",
+      "date": "2024-07-20",
+      "time": "6:00 PM - 10:00 PM",
+      "location": "Grand Hotel, Downtown",
+      "description": "An elegant evening of dining, entertainment, and philanthropy to support our education initiatives.",
+      "category": "Fundraising",
+      "attendees": 85,
+      "maxAttendees": 150,
+      "image": "/images/events/gala.jpg",
+      "organizer": "Fundraising Committee"
+    },
+    {
+      "id": "3",
+      "title": "Health Awareness Workshop",
+      "date": "2024-08-05",
+      "time": "9:00 AM - 1:00 PM",
+      "location": "Community Center, Brooklyn",
+      "description": "Learn about preventive healthcare and wellness practices from medical professionals.",
+      "category": "Education",
+      "attendees": 60,
+      "maxAttendees": 100,
+      "image": "/images/events/health-workshop.jpg",
+      "organizer": "Health & Wellness Team"
+    },
+    {
+      "id": "4",
+      "title": "Volunteer Training Session",
+      "date": "2024-08-12",
+      "time": "2:00 PM - 5:00 PM",
+      "location": "Main Office, Manhattan",
+      "description": "Mandatory training session for new volunteers to learn about our programs and procedures.",
+      "category": "Training",
+      "attendees": 25,
+      "maxAttendees": 40,
+      "image": "/images/events/training.jpg",
+      "organizer": "Volunteer Coordination Team"
+    }
+  ],
+  "categories": [
+    { "id": "all", "name": "All Events" },
+    { "id": "upcoming", "name": "Upcoming" },
+    { "id": "Community Service", "name": "Community Service" },
+    { "id": "Fundraising", "name": "Fundraising" },
+    { "id": "Education", "name": "Education" },
+    { "id": "Training", "name": "Training" }
+  ],
+  "testimonials": [
+    {
+      "name": "Sarah Johnson",
+      "role": "Volunteer",
+      "quote": "Attending the food drive event was such a rewarding experience. I met amazing people and made a real difference in my community.",
+      "image": "/images/testimonials/sarah.jpg"
+    },
+    {
+      "name": "Michael Chen",
+      "role": "Event Attendee",
+      "quote": "The fundraising gala was beautifully organized and inspiring. It's wonderful to see so many people coming together for a great cause.",
+      "image": "/images/testimonials/michael.jpg"
+    }
+  ]
+}

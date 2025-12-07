@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <pattern id="arabesque3" x="0" y="0" width="70" height="70" patternUnits="userSpaceOnUse">
+      <path d="M35,0 C50,0 70,20 70,35 C70,50 50,70 35,70 C20,70 0,50 0,35 C0,20 20,0 35,0 Z" fill="none" stroke="white" stroke-width="0.5" />
+      <path d="M35,10 C45,10 60,25 60,35 C60,45 45,60 35,60 C25,60 10,45 10,35 C10,25 25,10 35,10 Z" fill="none" stroke="white" stroke-width="0.5" />
+      <path d="M35,20 C40,20 50,30 50,35 C50,40 40,50 35,50 C30,50 20,40 20,35 C20,30 30,20 35,20 Z" fill="none" stroke="white" stroke-width="0.5" />
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="400" height="400" fill="url(#arabesque3)" />
+</svg>

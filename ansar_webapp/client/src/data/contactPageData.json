@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "heading": "Get In Touch",
+    "subheading": "We're here to help you",
+    "description": "Reach out for any inquiries, support, or feedback. Our team will respond as soon as possible.",
+    "quote": "Reach out for any inquiries, support, or feedback. Our team will respond as soon as possible.",
+    "quoteBy": "Ansar Organization",
+    "backgroundImage": ""
+  },
+  "infoSection": {
+    "officeTitle": "Our Office",
+    "email": "info@ansar.org",
+    "phone": "+252 63 4456789",
+    "address": "Gollis University, Hargeisa, Somaliland",
+    "description": "You can contact us using the form or via email/phone above."
+  },
+  "benefits": [
+    { "icon": "FaRegEnvelope", "title": "Get quick support", "description": "Our team responds fast to your inquiries" },
+    { "icon": "FaPhoneAlt", "title": "Direct phone access", "description": "Call us for urgent matters or emergencies" },
+    { "icon": "FaMapMarkerAlt", "title": "Visit our office", "description": "Meet us in person for consultations" },
+    { "icon": "FaEnvelopeOpenText", "title": "Stay connected", "description": "Receive updates and news from Ansar" }
+  ],
+  "map": {
+    "title": "Gollis University Map",
+    "src": "https://maps.google.com/maps?q=Gollis%20University%20Hargeisa%20Somaliland&t=&z=15&ie=UTF8&iwloc=&output=embed"
+  },
+  "form": {
+    "title": "Contact Form",
+    "subtitle": "Send us a message and we'll get back to you soon",
+    "fields": [
+      { "name": "name", "label": "Full Name", "type": "text", "placeholder": "Your Name", "required": true, "validation": { "pattern": "^[a-zA-Z\\s]{2,}$", "minLength": 2 } },
+      { "name": "email", "label": "Email", "type": "email", "placeholder": "you@email.com", "required": true, "validation": { "pattern": "^[\\w-.]+@([\\w-]+\\.)+[\\w-]{2,4}$" } },
+      { "name": "phone", "label": "Phone Number", "type": "tel", "placeholder": "e.g. +252 63 4456789", "required": true, "validation": { "pattern": "^\\+?[0-9\\s-]{7,}$", "minLength": 7 } },
+      { "name": "gender", "label": "Gender", "type": "radio", "options": ["Male", "Female"], "required": true },
+      { "name": "subject", "label": "Subject", "type": "select", "options": ["General Inquiry", "Support", "Partnership", "Feedback"], "placeholder": "Select a subject", "required": true },
+      { "name": "organization", "label": "Organization (optional)", "type": "text", "placeholder": "Your Organization", "required": false },
+      { "name": "address", "label": "Address", "type": "text", "placeholder": "Street Address", "required": false },
+      { "name": "city", "label": "City", "type": "text", "placeholder": "City", "required": false },
+      { "name": "country", "label": "Country", "type": "text", "placeholder": "Country", "required": false },
+      { "name": "message", "label": "Message", "type": "textarea", "placeholder": "Type your message here...", "required": true },
+      { "name": "additional", "label": "Additional Information", "type": "textarea", "placeholder": "Any extra details or requests...", "required": false }
+    ],
+    "buttonText": "Send Message"
+  },
+  "faqs": [
+    { "question": "How soon will I get a response?", "answer": "We aim to respond to all inquiries within 24 hours on business days. You will receive a confirmation email and can track your request status online." },
+    { "question": "Can I visit your office without an appointment?", "answer": "Yes, you can visit during our working hours, but for specific consultations, booking is recommended. Walk-ins are welcome for general inquiries and support." },
+    { "question": "Is my information kept confidential?", "answer": "Absolutely. All information submitted is kept private and secure. We never share your data with third parties without consent." },
+    { "question": "What is Ansar Organization?", "answer": "Ansar Organization is a leading non-profit dedicated to community development, education, and humanitarian aid. We connect volunteers, donors, and beneficiaries for maximum impact." },
+    { "question": "How do I subscribe to updates and newsletters?", "answer": "You can opt-in for newsletters and updates using the checkboxes in the contact form. We send regular news, event invitations, and impact stories to our subscribers." }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 1,
+  "title": "Emergency Relief: Gaza",
+  "description": "Provide urgent humanitarian aid to families in Gaza affected by the ongoing crisis. Your donation will help provide food, clean water, medical supplies, and shelter to those in desperate need.",
+  "longDescription": "<p>The humanitarian situation in Gaza has reached catastrophic levels. Thousands of families have been displaced, with many losing their homes and livelihoods. Basic necessities like food, clean water, and medical supplies are in critically short supply.</p>\n<p>Your donation to this emergency relief campaign will help provide:</p>\n<ul>\n  <li>Emergency food packages for families</li>\n  <li>Clean drinking water and sanitation supplies</li>\n  <li>Medical aid and essential medicines</li>\n  <li>Emergency shelter kits and blankets</li>\n  <li>Psychological support for traumatized children</li>\n</ul>\n<p>We are working with local partners on the ground to ensure aid reaches those most in need as quickly as possible. Every donation, no matter how small, can make a significant difference in the lives of those suffering.</p>\n<p>This is an urgent appeal - please donate today and help save lives.</p>",
+  "image": "/images/campaigns/emergency.jpg",
+  "gallery": [
+    "/images/campaigns/emergency-1.jpg",
+    "/images/campaigns/emergency-2.jpg",
+    "/images/campaigns/emergency-3.jpg"
+  ],
+  "raised": 45000,
+  "goal": 100000,
+  "category": "Relief",
+  "country": "Palestine",
+  "location": "Gaza Strip",
+  "daysLeft": 7,
+  "donorsCount": 1250,
+  "licenseNumber": "2024",
+  "createdAt": "2024-01-10",
+  "updates": [
+    {
+      "id": 1,
+      "date": "2024-01-20",
+      "title": "First aid shipment delivered",
+      "content": "We are pleased to announce that the first shipment of emergency supplies has been successfully delivered to Gaza. This includes food packages, clean water, and medical supplies that will help hundreds of families."
+    },
+    {
+      "id": 2,
+      "date": "2024-01-15",
+      "title": "Campaign launched",
+      "content": "We have launched this emergency campaign to provide urgent humanitarian aid to families in Gaza. Thank you for your support."
+    }
+  ]
+}

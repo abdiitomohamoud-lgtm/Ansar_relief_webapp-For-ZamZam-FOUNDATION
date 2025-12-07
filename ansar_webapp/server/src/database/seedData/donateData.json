@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Sponsor a Child",
+    "slug": "sponsor-a-child",
+    "description": "<p>Help provide food, education, and healthcare to a child in need.</p>",
+    "image": "/assets/images/donate/child.jpg",
+    "donateUrl": "/donate/sponsor-a-child"
+  },
+  {
+    "title": "Feed a Family",
+    "slug": "feed-a-family",
+    "description": "<p>Support a family with essential food supplies for a month.</p>",
+    "image": "/assets/images/donate/family.jpg",
+    "donateUrl": "/donate/feed-a-family"
+  }
+]

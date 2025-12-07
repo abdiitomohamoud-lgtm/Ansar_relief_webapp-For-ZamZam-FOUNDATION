@@ -1,0 +1,81 @@
+@media print {
+  /* General print adjustments */
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  
+  /* Hide non-printable elements */
+  button, 
+  .no-print,
+  .pattern-islamic,
+  .pattern-arabesque,
+  .pattern-moroccan,
+  .pattern-ottoman,
+  .pattern-persian,
+  .pattern-andalusian,
+  .pattern-geometric,
+  .islamic-divider {
+    display: none !important;
+  }
+  
+  /* Report card print styles */
+  .container {
+    width: 100% !important;
+    max-width: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  /* Force background colors to print */
+  .report-card,
+  .certification-card {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+    break-inside: avoid !important;
+  }
+  
+  /* Adjust grid for print */
+  .grid {
+    display: block !important;
+  }
+  
+  .grid > * {
+    margin-bottom: 20px !important;
+    width: 100% !important;
+  }
+  
+  /* Ensure text is readable */
+  h3 {
+    font-size: 16pt !important;
+    color: black !important;
+  }
+  
+  p {
+    font-size: 11pt !important;
+    color: black !important;
+  }
+  
+  /* Add URLs after links */
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 80%;
+    color: #666;
+  }
+  
+  /* Page breaks */
+  .certification-card {
+    page-break-inside: avoid;
+  }
+  
+  h2 {
+    page-break-before: always;
+  }
+  
+  h2:first-of-type {
+    page-break-before: avoid;
+  }
+} 
